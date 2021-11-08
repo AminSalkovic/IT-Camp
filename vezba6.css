@@ -1,0 +1,47 @@
+
+.first{
+    position: sticky;
+    top:0;
+    background-color:purple;
+    width: 600px;
+    height: 70px;
+
+    }
+.second{
+    
+    float: left;
+    background-color:orange;
+    border: 2px solid black;
+    padding: 30px;
+    width: 100px;
+    height: 1000px;
+    position:fixed;
+    top:230px;
+    
+   
+}
+.third{
+    float: right;
+    right: 20px;
+    background-color:blue;
+    border: 2px solid black;
+    width: 600px;
+    height: 1000px;
+    padding: 30px;
+    position:relative;
+    top:70px;
+
+
+}
+.krug{
+    
+    background-color: red;
+    padding: 30px;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    position:absolute;
+    right:20px;
+    top:100px;
+   
+    }
