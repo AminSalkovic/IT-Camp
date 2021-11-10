@@ -9,7 +9,9 @@
     border-bottom:4px solid orange;
     width: 100%;
     height: 80px;
-}
+    position: sticky;
+    top:0px;
+   }
 
 li{
    color: white;
