@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: opx;
+}
+.main{
+    height: 75px;
+    width: 100%;
+    background-color:#4e333a;
+    
+    display: flex;
+    display: inline-block;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: inline-block;
+    margin-right: 32px;
+}
+a:hover{
+    size: 32px;
+    color:#37ada2;
+    background-color: black;
+    height: 75px;
+}
+
+i{
+    color: white;
+    size: 22px;
+    
+}
