@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.full{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.navigation{
+    width:20%;
+    height: 80vh;
+    background-color: red;
+}
+.contect{
+    width:80%;
+    height: 80vh;
+    background-color: blue;
+}
+.sidebar{
+    width:20%;
+    height:80vh;
+    background-color: orange;
+}
+.footer{
+    width: 100%;
+    height:10vh;
+    background-color: rgb(85, 41, 41);
+}
