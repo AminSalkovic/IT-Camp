@@ -190,6 +190,7 @@
 
 // }
 a=parseInt(prompt("unesi broj od 0-100"));
+
    switch(true){
      case (a>0 && a<30):
      console.log("low");
