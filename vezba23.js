@@ -105,13 +105,89 @@
 //zadatak 4 kucamo sifru malim slovima i pretvaramo je u velika;
 
 
-a=(prompt("password"));
+// a=(prompt("password"));
 
-switch(true){
-    case(a.toUpperCase()==="AMIN"):
-    console.log("you joined");
-    break;
-    default:
-        console.log("wrong password");
+// switch(true){
+//     case(a.toUpperCase()==="AMIN"):
+//     console.log("you joined");
+//     break;
+//     default:
+//         console.log("wrong password");
+// }
+
+//for petlja
+
+// for(i=0; i<11 ;i++){
+//     console.log(i)
+// }
+
+
+
+// for(a=1;a<=10;a++){
+//     if(a % 2===0){
+//         console.log(a)
+//     }
+// }
+
+// pocetna=parseInt(prompt("unesi pocetnu vrednost"))
+// krajnja=parseInt(prompt("unesi krajnju vrednost"))
+
+// for(i=pocetna){
+//     console.log()
+// }
+
+
+// for(a=0;a<=15;a++){
+//       if(a % 2===0){
+//       console.log(  `broj {a} je paran`);
+//       }
+//       else{
+//         console.log(`broj {a} je neparan`) 
+//         }
+  
+// }
+
+
+
+
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// pocetna=parseInt(prompt("unesi pocetnu vrednost"))
+// krajnja=parseInt(prompt("unesi krajnju vrednost"))
+
+// for(a=pocetna;a<=krajnja;a++){
+//     if(a % 3===0 && a%5===0){
+//         console.log("fizbuzz");
+//     }
+//     else if(a % 5===0){
+//         console.log("buzz")
+//     }
+//     else if(a%3===0){
+//         console.log("fizz")
+//     }
+//     else{
+//         console.log(a)
+//         }
+// }
+
+
+// kolicina=parseInt(prompt("koliko zelite brojeva"))
+// sum=0;
+// for(i=0;i<kolicina;i++){
+//    unos= parseInt(prompt(`unesi broj`));
+//   sum+=unos;
+// }
+// console.log(sum)
+// console.log(sum/ kolicina)
+
+pocetna=parseInt(prompt("unesi pocetnu vrednost"))
+krajnja=parseInt(prompt("unesi krajnju vrednost"))
+sum=0;
+
+for(a=pocetna;a<=krajnja;a++){
+    if(a%2===0){
+        console.log(`broj ${a} je paran`)
+    }
 }
 
+//
