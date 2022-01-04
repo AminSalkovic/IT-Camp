@@ -26,7 +26,7 @@
 //console.log( a % 2===0)
 
 //a="amin"
-//console.log(s.length)
+//console.log(a.length)
 
 //ime=prompt("unesi ime")
 //duzina=(ime.length);
@@ -204,6 +204,8 @@ a=parseInt(prompt("unesi broj od 0-100"));
       default:
         console.log("pogresan unos")
 }
+
+
 
 
 

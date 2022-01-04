@@ -180,14 +180,78 @@
 // console.log(sum)
 // console.log(sum/ kolicina)
 
-pocetna=parseInt(prompt("unesi pocetnu vrednost"))
-krajnja=parseInt(prompt("unesi krajnju vrednost"))
-sum=0;
 
-for(a=pocetna;a<=krajnja;a++){
-    if(a%2===0){
-        console.log(`broj ${a} je paran`)
-    }
+
+
+// pocetna=parseInt(prompt("unesi pocetnu vrednost"))
+// krajnja=parseInt(prompt("unesi krajnju vrednost"))
+// sumP=0;
+// sumN=0
+
+// for(a=pocetna;a<krajnja;a++){
+//     if(a%2===0){
+//         sum1+=a;
+//      }else{
+//         sumN+=a;
+//     }
+// }
+// console.log(sumP)
+// console.log(sumN)
+
+
+//uneti string i za dati string ispisati svako slovo pojedinacno sa for petljom  npr unos:amin; izlaz    A
+                                                                                                        //M
+                                                                                                        //I
+                                                                                            
+
+// b=parseInt(prompt("unesi prvi broj"));
+// c=parseInt(prompt("unesi drugi broj"));
+
+// for(a=b;a<=c;a++){
+//     if(a%2===0){
+//         console.log(`broj ${a} je paran`)
+//     }else{
+//         console.log(`broj  ${a} je neparan`)
+//     }
+// }
+
+// namee=prompt("input your name");
+// if(namee !== "Amin"){
+//  console.log("You can't get in.")
+//  console.log("god bye")
+// }else{
+//     console.log("Get in");
+//     console.log("welcome")
+// }
+// year=parseInt(prompt("how old are you"));
+// switch(true){
+//     case(year>18):
+//     console.log("you have eniugh year");
+//     break;
+//     default:
+//         console.log("you are child yet")
+//         console.log("god bye")
+// }
+subject=parseInt(prompt("how much subject you have"));
+sum=0
+for(a=0;a<subject;a++){
+    numberOfSubject=parseInt(prompt("input your point"));
+    sum+=numberOfSubject
 }
-
-//
+console.log("Your sum of points is",sum)
+switch(true){
+    case(sum<=300):
+    console.log("you fall exame.Try again");
+    break;
+    case(sum>300 && sum<500):
+    console.log("you pass exame.");
+    console.log("your assessment is 3");
+    break;
+    case(sum>500 && sum<800):
+    console.log("you pass exame.");
+    console.log("your assessment is 4");
+    break;
+    default:
+        console.log("you pass exame.");
+    console.log("your assessment is 5");
+}
