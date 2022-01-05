@@ -202,17 +202,50 @@
 //uneti string i za dati string ispisati svako slovo pojedinacno sa for petljom  npr unos:amin; izlaz    A
                                                                                                         //M
                                                                                                         //I
-                                                                                            
+      
+//  unos=prompt("unesi ime")
+// for(i=0;i<= unos.length;i++){
+//     console.log(unos[i]);
+// }
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
 
-// b=parseInt(prompt("unesi prvi broj"));
-// c=parseInt(prompt("unesi drugi broj"));
-
-// for(a=b;a<=c;a++){
-//     if(a%2===0){
-//         console.log(`broj ${a} je paran`)
-//     }else{
-//         console.log(`broj  ${a} je neparan`)
-//     }
+// for(i= 7; i>0;i--){
+//     console.log(i);
 // }
 
+//vezba 10//////////////////////////////////////////////////////////////
+
+// for(i=1;i<11;i++){
+//     for(a=1;a<11;i++){
+//         console.log(i,"*",a, "=" ,i*a)
+//     }
+ //////////////////////////////////////////////////////////////////////   
+// }
+//ispisivanje zvezdica
+// sum="";
+// char=" * "
+// for(i=0;i<5;i++){
+//     console.log((sum+=char))
+// }
+///////////////////////////////////////////////////////////
+// unos=prompt("unesi string")
+// unosr="";
+// for(i=unos.length - 1;i>=0;i--){
+//     unosr+=unos[i]
+// }
+// if(unos===unosr){
+//     console.log("palindrom")
+// }else{
+//     console.log("nije palindrom")
+// }
+
+
+unos=parseInt(prompt("unesi"))
+for(i=1;i<=unos;i++){
+    sum="";
+    for(j=1;j<=i;j++){
+        sum+=i;
+    }
+    console.log(sum)
+}
 
