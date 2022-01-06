@@ -240,12 +240,24 @@
 // }
 
 
-unos=parseInt(prompt("unesi"))
-for(i=1;i<=unos;i++){
-    sum="";
-    for(j=1;j<=i;j++){
-        sum+=i;
-    }
-    console.log(sum)
-}
+// unos=parseInt(prompt("unesi"))
+// for(i=1;i<=unos;i++){
+//     sum="";
+//     for(j=1;j<=i;j++){
+//         sum+=i;
+//     }
+//     console.log(sum)
+// }
+
+//napraviti program da izracuna 
+//factorial od 5=1*2*3*4*5=120/
+
+
+// unos=parseInt(prompt("unesi"))
+// faktorijal=1;
+// for(i=1;i<=unos;i++){
+//     faktorijal*=i;
+// }
+// console.log(faktorijal)
+
 

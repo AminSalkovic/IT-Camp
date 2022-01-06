@@ -51,43 +51,59 @@
 
 //excersise 5
 
-namee=prompt("input your name");
-if(namee !== "Amin"){
- console.log("You can't get in.")
- console.log("god bye")
-}else{
-    console.log("Get in");
-    console.log("welcome")
-}
-year=parseInt(prompt("how old are you"));
-switch(true){
-    case(year>18):
-    console.log("you have eniugh year");
-    break;
-    default:
-        console.log("you are child yet")
-        console.log("god bye")
-}
-subject=parseInt(prompt("how much subject you have"));
-sum=0
-for(a=0;a<subject;a++){
-    numberOfSubject=parseInt(prompt("input your point"));
-    sum+=numberOfSubject
-}
-console.log("Your sum of points is",sum)
-switch(true){
-    case(sum<=300):
-    console.log("you fall exame.Try again");
-    break;
-    case(sum>300 && sum<500):
-    console.log("you pass exame.");
-    console.log("your assessment is 3");
-    break;
-    case(sum>500 && sum<800):
-    console.log("you pass exame.");
-    console.log("your assessment is 4");
-    break;
-    default:
-        console.log("you pass exame.");
-    console.log("your assessment is 5");
+// namee=prompt("input your name");
+// if(namee !== "Amin"){
+//  console.log("You can't get in.")
+//  console.log("god bye")
+// }else{
+//     console.log("Get in");
+//     console.log("welcome")
+// }
+// year=parseInt(prompt("how old are you"));
+// switch(true){
+//     case(year>18):
+//     console.log("you have eniugh year");
+//     break;
+//     default:
+//         console.log("you are child yet")
+//         console.log("god bye")
+// }
+// subject=parseInt(prompt("how much subject you have"));
+// sum=0
+// for(a=0;a<subject;a++){
+//     numberOfSubject=parseInt(prompt("input your point"));
+//     sum+=numberOfSubject
+// }
+// console.log("Your sum of points is",sum)
+// switch(true){
+//     case(sum<=300):
+//     console.log("you fall exame.Try again");
+//     break;
+//     case(sum>300 && sum<500):
+//     console.log("you pass exame.");
+//     console.log("your assessment is 3");
+//     break;
+//     case(sum>500 && sum<800):
+//     console.log("you pass exame.");
+//     console.log("your assessment is 4");
+//     break;
+//     default:
+//         console.log("you pass exame.");
+//     console.log("your assessment is 5");
+// }
+
+// unos=parseInt(prompt("unesi"))
+// for(i=1;i<=unos;i++){
+//     sum="";
+//     for(j=1;j<=i;j++){
+//         sum+=i;
+//     }
+//     console.log(sum)
+// }
+
+unos=parseInt(prompt("unesi"))
+for(i=1;i<unos;i++){
+    for(j=1;j<i;j++){
+        console.log(i)
+    }
 }
