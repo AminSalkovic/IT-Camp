@@ -260,4 +260,50 @@
 // }
 // console.log(faktorijal)
 
+//kubni brojevi
 
+// pocetna=parseInt(prompt("unesi pocetnu vrednost"))
+// krajnja=parseInt(prompt("unesi krajnju vrednost"))
+
+// for(i=pocetna;i<=krajnja;i++){
+//     console.log(`number is ${i} and cube of the ${i**3}`)
+// }
+
+// pocetna=parseInt(prompt("unesi pocetnu vrednost"))
+// krajnja=parseInt(prompt("unesi krajnju vrednost"))
+// for(i=pocetna;i<=krajnja;i++){
+//     delioci=0;
+//     for(j=1;j<=i;j++){
+//         if(i % j===0){
+//           delioci++;
+//         }
+//     }
+//     if(delioci===2){
+//         console.log(i)
+//     }
+    
+    
+// }
+
+
+
+
+// prvi=parseInt(prompt("unesi pocetnu vrednost"))
+// drugi=parseInt(prompt("unesi krajnju vrednost"))
+//  for(i=prvi;i<100;i++){
+//      if(i % prvi ===0 && i % drugi===0){
+//          console.log(i);
+//          break;
+//      }
+     
+//  }
+
+
+kolicina=parseInt(prompt("koliko zelite karaktera"))
+sum=""
+for(i=0;i<kolicina;i++){
+   unos= prompt(`unesi karakter`);
+   sum+=unos
+
+}
+console.log(sum)
