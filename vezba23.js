@@ -298,12 +298,11 @@
      
 //  }
 
-
-kolicina=parseInt(prompt("koliko zelite karaktera"))
-sum=""
-for(i=0;i<kolicina;i++){
-   unos= prompt(`unesi karakter`);
-   sum+=unos
-
-}
-console.log(sum)
+//ispis karaktera
+// kolicina=parseInt(prompt("koliko zelite karaktera"))
+// sum="";
+// for(i=0;i<kolicina;i++){
+//    unos= prompt(`unesi karakter`);
+//    sum+=unos
+// }
+// console.log(sum)
