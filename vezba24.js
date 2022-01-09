@@ -101,9 +101,27 @@
 //     console.log(sum)
 // }
 
-unos=parseInt(prompt("unesi"))
-for(i=1;i<unos;i++){
-    for(j=1;j<i;j++){
-        console.log(i)
-    }
+// unos=parseInt(prompt("unesi"))
+// for(i=1;i<unos;i++){
+//     for(j=1;j<i;j++){
+//         console.log(i)
+//     }
+// }
+// prvi=parseInt(prompt("unesi pocetnu vrednost"))
+// drugi=parseInt(prompt("unesi krajnju vrednost"))
+//  for(i=prvi;i<100;i++){
+//      if(i % prvi ===0 && i % drugi===0){
+//          console.log(i);
+//          break;
+//      }
+     
+//  }
+
+//ispis slova
+kolicina=parseInt(prompt("koliko zelite karaktera"))
+sum="";
+for(i=0;i<kolicina;i++){
+   unos= prompt(`unesi karakter`);
+   sum+=unos
 }
+console.log(sum)

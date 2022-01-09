@@ -306,3 +306,30 @@
 //    sum+=unos
 // }
 // console.log(sum)
+
+
+// unos1=parseInt(prompt("unesi prvi broj"));
+// unos2=parseInt(prompt("unesi prvi broj"));
+
+// for(i=unos1;i<=unos2;i++){
+//     if(i % 2===0){
+//         console.log(`${i},je deljiv sa 2`)
+//     }else{
+//         console.log(`${i},nije deljiv sa 2`)
+//     }
+// }
+
+// unos1=parseInt(prompt("unesi prvi broj"));
+// unos2=parseInt(prompt("unesi prvi broj"));
+
+// for(i=unos1;i<=unos2;i++){
+//     for(j=unos1;j<=unos2;j++){
+//         console.log(`${i},*,${j},=,`,i*j)
+//     }
+// }
+
+for(i=1;i<11;i++){
+    for(a=1;a<11;i++){
+        console.log(i,"*",a, "=" ,i*a)
+    }
+}
