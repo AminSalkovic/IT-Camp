@@ -327,9 +327,38 @@
 //         console.log(`${i},*,${j},=,`,i*j)
 //     }
 // }
+//faktorijal
+// unos=parseInt(prompt("unesi prvi broj"));
+// fakt=1;
+// for(j=1;j<=unos;j++){
+//  fakt=fakt*i
+// }
+// console.log(fakt)
 
-for(i=1;i<11;i++){
-    for(a=1;a<11;i++){
-        console.log(i,"*",a, "=" ,i*a)
+// unos=parseInt(prompt("unesi prvi broj"));
+// for(i=1;i<=unos;i++){
+//     fakt=1;
+//     for(j=1;j<=i;j++){
+//          fakt=fakt*j;
+//         }
+//     console.log(fakt)
+// }
+
+// for(i=1;i<=10;i++){
+// red="";
+// for(j=1;j<=10;j++){
+//     red+=`${j*i}\t`
+// }
+// console.log(red)
+
+// }
+
+unos=parseInt(prompt("unesi prvi broj"));
+sum=1
+for(i=1;i<=unos;i++){
+    unos1=parseInt(prompt("unesi temperaturu"));
+    novi=sum+unos1
+    if(novi>0){
+        console.log("srednja temperatura je",unos1)
     }
 }
