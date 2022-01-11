@@ -352,13 +352,21 @@
 // console.log(red)
 
 // }
-
-unos=parseInt(prompt("unesi prvi broj"));
-sum=1
+//unesi deset temperatura one koje su povis nula treba da se saberu i izracunaju prosecnu vrednost one koje su sipod isto
+unos=parseInt(prompt("koliko zelis da uneses temperatura"));
+sum=0;
+sum2=0;
 for(i=1;i<=unos;i++){
     unos1=parseInt(prompt("unesi temperaturu"));
-    novi=sum+unos1
-    if(novi>0){
-        console.log("srednja temperatura je",unos1)
+    if(unos1>=0){
+        sum=sum+unos1
+        prosecna1=sum/unos1
+    }else if(unos1<0){
+        sum2=sum2+unos1
     }
 }
+console.log(` zbir temperatura  u plusu je ${sum}`)
+console.log(`prosek vasih temperatura u plusu je ${prosecna1}`)
+console.log(` zbir temperatura  u minusu je ${sum2}`)
+
+
