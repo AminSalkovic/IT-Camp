@@ -353,20 +353,52 @@
 
 // }
 //unesi deset temperatura one koje su povis nula treba da se saberu i izracunaju prosecnu vrednost one koje su sipod isto
-unos=parseInt(prompt("koliko zelis da uneses temperatura"));
+// unos=parseInt(prompt("koliko zelis da uneses temperatura"));
+// sum=0;
+// prosecna1=sum/unos
+// sum2=0;
+// for(i=1;i<=unos;i++){
+//     unos1=parseInt(prompt("unesi temperaturu"));
+
+//     if(unos1>=0){
+//         sum=sum+unos1
+//      }
+//      else if(unos1<0){
+//         sum2=sum2+unos1
+//     }
+// }
+// console.log(` zbir temperatura  u plusu je ${sum}`)
+// console.log(` zbir temperatura  u minusu je ${sum2}`)
+
+// unos1=parseInt(prompt("unesi prvi broj"));
+// unos2=parseInt(prompt("unesi prvi broj"));
+// for(i=unos1;i<=unos2;i++){
+//     if(i%2===0){
+//         console.log(i,"je dejiv sa dva")
+//     }else{
+//         console.log(i,"nije deljiv sa dva")
+//     }
+// }
+
+//brojevi koji su deljvi sa 2 i 3
+// unos1=parseInt(prompt("unesi prvi broj"));
+// unos2=parseInt(prompt("unesi prvi broj"));
+// for(i=unos1;i<=unos2;i++){
+//     if(i % 2===0 && i % 3==0){
+//         console.log(i)
+//     }
+// }
+
+unos=parseInt(prompt("koliko zelis ocena da uneses"));
 sum=0;
-sum2=0;
 for(i=1;i<=unos;i++){
-    unos1=parseInt(prompt("unesi temperaturu"));
-    if(unos1>=0){
-        sum=sum+unos1
-        prosecna1=sum/unos1
-    }else if(unos1<0){
-        sum2=sum2+unos1
-    }
+    unos2=parseInt(prompt("unesi ocene"))
+    sum=sum+unos2
+    prosek=sum/unos
 }
-console.log(` zbir temperatura  u plusu je ${sum}`)
-console.log(`prosek vasih temperatura u plusu je ${prosecna1}`)
-console.log(` zbir temperatura  u minusu je ${sum2}`)
-
-
+console.log("prosek vasih ocena je",prosek)
+if(prosek>=4,5){
+    console.log("odlican si")
+}else if(prosek< 4,5){
+    console.log(" nisi odlican  ")
+}

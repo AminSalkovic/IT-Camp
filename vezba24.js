@@ -117,11 +117,87 @@
      
 //  }
 
-//ispis slova
-kolicina=parseInt(prompt("koliko zelite karaktera"))
-sum="";
-for(i=0;i<kolicina;i++){
-   unos= prompt(`unesi karakter`);
-   sum+=unos
-}
-console.log(sum)
+// //ispis slova
+// kolicina=parseInt(prompt("koliko zelite karaktera"))
+// sum="";
+// for(i=0;i<kolicina;i++){
+//    unos= prompt(`unesi karakter`);
+//    sum+=unos
+// }
+// console.log(sum)
+/////////////////////////////////////////////////////////
+// unos1=parseInt(prompt("unesi prvi broj"));
+// unos2=parseInt(prompt("unesi prvi broj"));
+
+// for(i=unos1;i<=unos2;i++){
+//     for(j=unos1;j<=unos2;j++){
+//         console.log(`${i},*,${j},=,`,i*j)
+//     }
+// }
+//faktorijal
+// unos=parseInt(prompt("unesi prvi broj"));
+// fakt=1;
+// for(j=1;j<=unos;j++){
+//  fakt=fakt*i
+// }
+// console.log(fakt)
+
+// unos=parseInt(prompt("unesi prvi broj"));
+// for(i=1;i<=unos;i++){
+//     fakt=1;
+//     for(j=1;j<=i;j++){
+//          fakt=fakt*j;
+//         }
+//     console.log(fakt)
+// }
+
+// for(i=1;i<=10;i++){
+// red="";
+// for(j=1;j<=10;j++){
+//     red+=`${j*i}\t`
+// }
+// console.log(red)
+
+// }
+
+
+
+// unos1=parseInt(prompt("unesi prvi broj"));
+// unos2=parseInt(prompt("unesi prvi broj"));
+// for(i=unos1;i<=unos2;i++){
+//     if(i%2===0){
+//         console.log(i,"je dejiv sa dva")
+//     }else{
+//         console.log(i,"nije deljiv sa dva")
+//     }
+// }
+
+//brojevi koji su deljvi sa 2 i 3
+
+// unos1=parseInt(prompt("unesi prvi broj"));
+// unos2=parseInt(prompt("unesi prvi broj"));
+// for(i=unos1;i<=unos2;i++){
+//     if(i % 2===0 && i % 3==0){
+//         console.log(i)
+//     }
+// }
+
+//bodovi i ocene
+
+// unos1=parseInt(prompt("unesi bodove"));
+
+// switch(true){
+//     case(unos1<=30):
+//     console.log("vasa ocena je 3")
+//     break;
+//     case(unos1<=60):
+//     console.log("vasa ocena je 4")
+//     break;
+//     case(unos1<=100):
+//     console.log("vasa ocena je 5")
+//     break;
+//     default:
+//         console.log("pogresan unos")
+    
+// }
+
