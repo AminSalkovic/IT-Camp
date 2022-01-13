@@ -389,16 +389,3 @@
 //     }
 // }
 
-unos=parseInt(prompt("koliko zelis ocena da uneses"));
-sum=0;
-for(i=1;i<=unos;i++){
-    unos2=parseInt(prompt("unesi ocene"))
-    sum=sum+unos2
-    prosek=sum/unos
-}
-console.log("prosek vasih ocena je",prosek)
-if(prosek>=4,5){
-    console.log("odlican si")
-}else if(prosek< 4,5){
-    console.log(" nisi odlican  ")
-}
