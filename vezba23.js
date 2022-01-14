@@ -389,3 +389,54 @@
 //     }
 // }
 
+// unos=prompt("unesi rec")
+
+// while(unos.length<5){
+//     unos=prompt("unesi rec ponovo")
+// }
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// unos=prompt("unesite broj ili end")
+
+// while(unos !== "end"){
+//     unos=prompt("unesite broj ili end")
+// }
+
+// unos=parseInt(prompt("unesi broj"))
+// sum=0;
+// while(unos>0){
+//     sum+=unos
+//     unos=parseInt(prompt("unesi broj ponovo"))
+// }
+// console.log(sum)
+///////////////////////////////////////////////////////////////////
+
+//ZADATAK3
+// unos=prompt("unesi ime")
+
+// while(unos !== "END"){
+ //console.log(unos)
+//unos=prompt("unesi ponovo") ;
+// }
+// console.log("I am done");
+
+// unos=parseInt(prompt("unesi ocene"))
+// sum=0;
+// kolicina=0;
+// while(unos>=1 && unos<=5){
+//     sum+=unos
+//     kolicina++;
+//     unos=parseInt(prompt("unesi ocene"))
+// }
+// console.log("prosek je",sum/kolicina)
+
+
+broj=Math.round(Math.random()*10)
+unos=parseInt(prompt("unesi broj"))
+while(unos!== broj){
+    if(unos>broj){
+        unos=parseInt(prompt("unesi broj high"))
+    }else{
+        unos=parseInt(prompt("unesi broj small"))
+    }
+}
+console.log("pogodili ste")
