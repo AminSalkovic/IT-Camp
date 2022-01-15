@@ -430,13 +430,42 @@
 // console.log("prosek je",sum/kolicina)
 
 
-broj=Math.round(Math.random()*10)
-unos=parseInt(prompt("unesi broj"))
-while(unos!== broj){
-    if(unos>broj){
-        unos=parseInt(prompt("unesi broj high"))
-    }else{
-        unos=parseInt(prompt("unesi broj small"))
-    }
+// broj = Math.round(Math.random() * 10);
+// unos = parseInt(prompt("Unesi broj"));
+
+// while (unos !== broj) {
+//   if (unos > broj) {
+//     unos = parseInt(prompt("Broj je too high try again"));
+//   } else {
+//     unos = parseInt(prompt("Broj je too small try again"));
+//   }
+// }
+
+// console.log("Pogodiliste broj");
+
+//Domaci:Napraviti kalkulator koji ce sve dok korisnik ne unese STOP pitati za operaciju +,-,*,/ i nakon odabira
+//pitati za dva broja na koje ce se primeniti operacija i ispisati rezultat i sve se ponoviti
+
+
+unos=prompt("unesi operaciju koju zelis");
+while(unos !== "stop"){ 
+    
+if(unos === "+"){
+    unos2=parseInt(prompt("unesi prvi broj"))
+    unos3=parseInt(prompt("unesi drugi broj"))
+    console.log("rezultat vasih brojeva je",unos2+unos3)
+}else if(unos === "-"){
+    unos2=parseInt(prompt("unesi prvi broj"))
+    unos3=parseInt(prompt("unesi drugi broj"))
+    console.log("rezultat vasih brojeva je",unos2-unos3)
+}else if(unos === "*"){
+    unos2=parseInt(prompt("unesi prvi broj"))
+    unos3=parseInt(prompt("unesi drugi broj"))
+    console.log("rezultat vasih brojeva je",unos2*unos3)
+}else if(unos === "/"){
+    unos2=parseInt(prompt("unesi prvi broj"))
+    unos3=parseInt(prompt("unesi drugi broj"))
+    console.log("rezultat vasih brojeva je",unos2/unos3)
+     } 
+     unos=prompt("unesi operaciju koju zelis");
 }
-console.log("pogodili ste")
