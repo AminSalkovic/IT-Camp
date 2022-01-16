@@ -201,3 +201,24 @@
     
 // }
 
+
+
+23
+// for(i=unos1;i<=unos2;i++){
+//     if(i % 2===0 && i%3===0){
+//         console.log(`broj ${i} je deljiv sa 2 i sa 3`)
+//     }else  {
+//         console.log(i)
+//     }
+// }  
+
+
+
+
+// for(i=unos1;i<=unos2;i++){
+//     if(i % 2===0 && i%3===0){
+//         console.log(`broj ${i} je deljiv sa 2 i sa 3`)
+//     }else  {
+//         console.log(i)
+//     }
+// }

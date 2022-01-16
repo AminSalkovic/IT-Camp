@@ -66,14 +66,14 @@
     display: block;
     font-size: 20px;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 .footer a:hover{
-    background-color: rgb(163, 157, 157);
+    color: gray;
 }
 .div2{
-    background-color: brown;
+    background-color: white;
     height: 1000px;
-    width: 500px;
-    margin-left: -50px; 
+    width: 1000px;
+    margin-left: -200px; 
 }
