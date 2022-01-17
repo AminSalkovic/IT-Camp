@@ -471,30 +471,30 @@
 
 // unos=prompt("unesi operaciju koju zelis:/,-,*,/")
 
-// while(unos !== "stop"){
-//   switch(true){
-//       case(unos === "+"):
-//       unos2=parseInt(prompt("unesi prvi broj"));
-//       unos3=parseInt(prompt("unesi drugi broj"));
-//       console.log(`rezultat unetih brojeva je ${unos2+unos3}`);
-//       break;
-//       case(unos === "-"):
-//       unos2=parseInt(prompt("unesi prvi broj"));
-//       unos3=parseInt(prompt("unesi drugi broj"));
-//       console.log(`rezultat unetih brojeva je ${unos2-unos3}`);
-//       break;
-//       case(unos === "*"):
-//       unos2=parseInt(prompt("unesi prvi broj"));
-//       unos3=parseInt(prompt("unesi drugi broj"));
-//       console.log(`rezultat unetih brojeva je ${unos2*unos3}`);
-//       break;
-//       case(unos === "/"):
-//       unos2=parseInt(prompt("unesi prvi broj"));
-//       unos3=parseInt(prompt("unesi drugi broj"));
-//       console.log(`rezultat unetih brojeva je ${unos2/unos3}`);
-//       break;
-//   }
-//  unos=prompt("unesi operaciju koju zelis:/,-,*,/")
-// }
+while(unos !== "stop"){
+  switch(true){
+      case(unos === "+"):
+      unos2=parseInt(prompt("unesi prvi broj"));
+      unos3=parseInt(prompt("unesi drugi broj"));
+      console.log(`rezultat unetih brojeva je ${unos2+unos3}`);
+      break;
+      case(unos === "-"):
+      unos2=parseInt(prompt("unesi prvi broj"));
+      unos3=parseInt(prompt("unesi drugi broj"));
+      console.log(`rezultat unetih brojeva je ${unos2-unos3}`);
+      break;
+      case(unos === "*"):
+      unos2=parseInt(prompt("unesi prvi broj"));
+      unos3=parseInt(prompt("unesi drugi broj"));
+      console.log(`rezultat unetih brojeva je ${unos2*unos3}`);
+      break;
+      case(unos === "/"):
+      unos2=parseInt(prompt("unesi prvi broj"));
+      unos3=parseInt(prompt("unesi drugi broj"));
+      console.log(`rezultat unetih brojeva je ${unos2/unos3}`);
+      break;
+  }
+ unos=prompt("unesi operaciju koju zelis:/,-,*,/")
+}
 
 

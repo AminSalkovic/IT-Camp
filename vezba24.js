@@ -222,3 +222,93 @@
 //         console.log(i)
 //     }
 // }
+
+// unos=prompt("unesi operaciju koju zelis:+,-,*,/");
+// while(unos !== "stop"){ 
+//     unos2=parseInt(prompt("unesi prvi broj"))
+//     unos3=parseInt(prompt("unesi drugi broj"))
+//     if(unos === "+"){
+//         console.log("rezultat vasih brojeva je",unos2+unos3)
+//     }else if(unos === "-"){
+//         console.log("rezultat vasih brojeva je",unos2-unos3)
+//     }else if(unos === "*"){
+//         console.log("rezultat vasih brojeva je",unos2*unos3)
+//     }else if(unos === "/"){
+//         console.log("rezultat vasih brojeva je",unos2/unos3)
+//          } 
+//     unos=prompt("unesi operaciju koju zelis");
+//     }
+    
+
+// tezina=prompt("unesi tezinu")
+// visina=prompt("unesi visinu")
+
+// bmi=tezina/visina**2
+// console.log(bmi)
+
+// if(bmi<=18.5){
+//     console.log("Underwight")
+// }else if(bmi<=25){
+//     console.log("Normal")
+// }else if(bmi<= 30){
+//     console.log("Overweight")
+// }else if(bmi>30){
+//     console.log("Obese")
+// }
+
+
+// unos=parseInt(prompt("unesi broj"));
+// brojac=1
+// while(brojac<=unos){
+//     if(brojac%2 !==0){
+//         console.log(brojac)
+//     }
+//     brojac++;
+// }
+
+// unos=prompt("unesi broj");
+
+// while(unos !== "stop"){
+//     if(unos>0){
+//         console.log("positive")
+//     }else if(unos<0){
+//         console.log("negativ")
+//     }else if(unos==0){
+//         console.log("null")
+//     }
+//     unos=prompt("unesi broj");
+// }
+
+// unos=parseInt(prompt("unesi godinu"))
+// brojac=0;
+// while(brojac<=unos){
+//     console.log(brojac)
+//     brojac+=4
+// }
+
+// unos=parseInt(prompt("unesi godinu"))
+// unos2=parseInt(prompt("unesi godinu"))
+
+// for(i=unos;i<=unos2;i++){
+//    if(i % 4===0){
+//        console.log(i)
+//    }
+// }
+
+// unos=parseInt(prompt("unesi broj"))
+// brojac=1;
+// fakt=1
+// while(brojac<=unos){
+//     fakt=fakt*brojac
+//     console.log(fakt)
+//     brojac++;
+// }
+
+
+unos=prompt("unesi string")
+newString= unos.slice(1) + unos[0]
+console.log(newString)
+
+
+
+
