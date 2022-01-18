@@ -32,7 +32,7 @@
 //duzina=(ime.length);
 //console.log(duzina)
   
-//console.log("nesto".trim();
+//console.log("nesto".trim());
 
 //a="amin"
 //console.log(a.toUpperCacse())

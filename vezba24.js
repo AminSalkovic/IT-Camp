@@ -305,10 +305,18 @@
 // }
 
 
-unos=prompt("unesi string")
-newString= unos.slice(1) + unos[0]
-console.log(newString)
+// unos=prompt("unesi string")
+// newString= unos.slice(1) + unos[0]
+// console.log(newString)
 
 
+// unos=parseInt(prompt("unesi broj"))
 
+// h=Math.floor(unos/60)
+// minuti=unos%60
+// console.log(h+":"+minuti)
 
+unos=parseInt(prompt("unesi broj"))
+minut=Math.floor(unos*60)
+h=unos%60
+console.log(minut+":"+h)
