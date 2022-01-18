@@ -316,7 +316,3 @@
 // minuti=unos%60
 // console.log(h+":"+minuti)
 
-unos=parseInt(prompt("unesi broj"))
-minut=Math.floor(unos*60)
-h=unos%60
-console.log(minut+":"+h)

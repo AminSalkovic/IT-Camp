@@ -136,24 +136,28 @@ margin: 0;
     background-color: rgb(78, 73, 73);
     opacity: .8;
 }
-.nav-bar ul li {
-    float: left;
+.nav-bar ul {
     list-style: none;
+    padding: 0%;
+    margin: 0%;
+
+}
+.nav-bar ul li  {
+    color: white;
+    float: left;
     margin-left: 20px;
     height: 60px;
     line-height: 60px;
-    
-}
-.nav-bar ul li a{
-    color: white;
+    text-align:center;
     font-size: 18px;
     text-decoration: none;
-    display: block;
 }
 
-.nav-bar a:hover{
+.nav-bar ul li:hover{
     color:rgb(253, 102, 1) ;
 }
+
+
 
 .nav-bar2{
   width: 94%;
