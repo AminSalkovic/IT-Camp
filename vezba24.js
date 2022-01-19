@@ -316,3 +316,70 @@
 // minuti=unos%60
 // console.log(h+":"+minuti)
 
+// unos=prompt("unesi string")
+// novi=""
+// for(i=0;i<unos.length-1;i++){
+//     if(i===0){
+//         novi+=unos[0].toUpperCase()
+
+//     }
+//     if(unos[i]===""){
+//         novi+=unos[i+1].toUpperCase()
+
+//     }else{
+//         novi+=unos[i+1]
+//     }
+// }
+// console.log(novi)
+
+
+// ar=[7,"hello world",3]
+// console.log(ar)
+
+
+
+// unos=parseInt(prompt("koliko zelite stringova"))
+// ar=[]
+// for(i=0;i<unos;i++){
+//     unos2=prompt("unesi string")
+//     ar[i]=unos2
+
+// }
+// console.log(ar)
+
+// unos=parseInt(prompt("koliko zelite stringova"))
+// ar=[]
+// for(i=0;i<unos;i++){
+//     unos2=prompt("unesi string")
+//     ar[i]=unos2
+// }
+// console.log(ar)
+
+// for(i=ar.length -1;i>=0;i--){
+//     console.log(ar[i])
+// }
+
+// unos=parseInt(prompt("unesi kolicinu"))
+// ar=[]
+// for(i=0;i<unos;i++){
+//     unos2=parseInt( prompt("unesi broj"))
+//     ar[i]=unos2
+// }
+// console.log(ar)
+
+// sum=0;
+// for(i=0;i<ar.length;i++){
+//     sum+=ar[i]
+// }
+// console.log(sum)
+//trazimo najveci broj
+arr=[1,2,34,5,,6]
+max=arr[0]
+for(i=0;i<arr.length;i++){
+   if(max<arr[i]){
+       max=arr[i]
+   }
+}
+console.log(max)
+
+
