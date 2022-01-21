@@ -394,29 +394,87 @@
 // console.log(ar)
 
 
-// password=prompt("Password");
-// while(password!=="amin"){
-//     password=prompt("Password");
-// }
-// console.log("welcome")
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-// unos=prompt("unesi koju operaciju zelis");
-// while(unos!=="stop"){
-//     unos2=parseInt(prompt("unesi broj"))
-//     unos3=parseInt(prompt("unesi broj"))
-//     if(unos=== "+"){
-//         console.log("zbir je",unos2+unos3)
-//     }else if(unos=== "-"){
-//         console.log("razlika je",unos2-unos3)
-//     }else if(unos === "*"){
-//         console.log("proizvod je",unos2*unos3)
-//     }else if(unos=== "/"){
-//         console.log("kolicnik je",unos2/unos3)
-//      }
-//     unos=prompt("unesi koju operaciju zelis");
+// fruits=["amin","saki","salkan"]
 
+// fruits.push("AM")
+// console.log(fruits)
+
+////////////////////////////////////////////////////
+// fruits=["amin","saki","salkan"]
+
+// a=fruits.push("AMIN")
+// console.log("D",a)
+////////////////////////////////////////////////////
+
+// names=["amin","saki","salkan"]
+// console.log(names)
+// names.pop()
+// console.log(names)
+
+//////////////////////////////////////////////////// uzima sa kraja niza
+// names=["amin","saki","salkan"]
+// console.log(names)
+// returnValue=names.pop()
+// console.log(names)
+// console.log("value",returnValue)
+//////////////////////////////////////////////////////////////join
+
+// names=["amin","saki","salkan"]
+// strinfofNames=names.join("+")
+// console.log(strinfofNames)
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////uzima sa pocetka niza
+// names=["amin","saki","salkan"]
+// console.log(names)
+// names.shift()
+// console.log(names)
+//////////////////////////////////////////////////////////////////dodaje na pocetak nesto
+
+// names=["amin","saki","salkan"]
+// console.log(names)
+// names.unshift("AM")
+// console.log(names)
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////pravi novi array ne dira one koji su napisani
+// names=["amin","saki","salkan"]
+
+// nesto=["gggfff","dsaaaaa","dsds"]
+// noviAr=names.concat("hhhh")
+// console.log(noviAr)
+/////////////////////////////////////////////
+// names=["amin","saki","salkan"]
+
+// names.splice(1,2);
+// console.log(names)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// food1=["noodle","pasta","ice-cream"]
+// food2=["fries","ice-cream","pizza"]
+// ar=[]
+// for(i=0;i<food1.length;i++){
+//     for(j=0;j<food2.length;j++){
+//         if(food1[i] === food2[j]){
+//             ar.push(food1[i]);
+//         }
+//     }
 // }
-b=("amin","saki")
-ar=[]
-ar=b
-console.log(ar)
+// console.log(ar)
+
+// food1=["noodle","pasta","ice-cream"]
+// for(el of food1){
+//     console.log(el)
+// }
+
+ar=[0,1,false,2,undefined,"",3,null]
+for(i=0;i<ar.length;i++){
+    if(!ar[i] || ar[i] === ""){
+        console.log(ar[i]);
+        ar.splice(i,1)
+    }
+    
+}
+console.log(ar)  

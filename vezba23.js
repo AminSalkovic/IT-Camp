@@ -498,3 +498,36 @@ while(unos !== "stop"){
 }
 
 
+
+// unos=parseInt(prompt("koliko zelite stringova"))
+// ar=[]
+// for(i=0;i<unos;i++){
+//     unos2=prompt("unesi string")
+//     ar[i]=unos2
+
+// }
+// console.log(ar)
+
+
+// password=prompt("Password");
+// while(password!=="amin"){
+//     password=prompt("Password");
+// }
+// console.log("welcome")
+
+// unos=prompt("unesi koju operaciju zelis");
+// while(unos!=="stop"){
+//     unos2=parseInt(prompt("unesi broj"))
+//     unos3=parseInt(prompt("unesi broj"))
+//     if(unos=== "+"){
+//         console.log("zbir je",unos2+unos3)
+//     }else if(unos=== "-"){
+//         console.log("razlika je",unos2-unos3)
+//     }else if(unos === "*"){
+//         console.log("proizvod je",unos2*unos3)
+//     }else if(unos=== "/"){
+//         console.log("kolicnik je",unos2/unos3)
+//      }
+//     unos=prompt("unesi koju operaciju zelis");
+
+// }
