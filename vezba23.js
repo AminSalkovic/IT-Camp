@@ -531,3 +531,17 @@ while(unos !== "stop"){
 //     unos=prompt("unesi koju operaciju zelis");
 
 // }
+
+// unos=parseInt(prompt("koliko zelis brojeva da uneses"))
+//  ar=[]           
+//  for(i=0;i<unos;i++){
+//      unos2=parseInt(prompt("unesi broj"))
+//      ar[i]=unos2
+//         if(ar[i]%2===0){
+//           console.log(ar[i],"je deljiv sa 2")
+//          }else {
+//               console.log(ar[i],"nije deljiv sa 2")            
+//          }
+// }
+//  console.log(ar)
+            

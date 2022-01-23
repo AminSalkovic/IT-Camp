@@ -485,7 +485,7 @@
 // brojevi=[1,2,3,1,2,3]
 
 // for(i=0;i<brojevi.length;i++){
-//     if(brojevi[i]=== 1 && 2){
+    //     if(brojevi[i]=== 1 && 2){
 //         brojevi.splice(i,2)
 //     }
 // }
@@ -496,10 +496,10 @@
 // ar=[]
 
 // for(i=0;i<numbers.length;i++){
-//     for(j=0;j<numbers2.length;j++){
-//         if(numbers[i]===numbers2[j]){
-
-//           ar.push(numbers[i])
+    //     for(j=0;j<numbers2.length;j++){
+        //         if(numbers[i]===numbers2[j]){
+            
+            //           ar.push(numbers[i])
 //         }
 //     }
 // }
@@ -509,23 +509,19 @@
 // numbers=[1,2,3,4,5,6,7,8,9,10]
 
 // for(i=0;i<numbers.length;i++){
-//     if(numbers[i]%2===0){
-//         console.log(numbers[i]," deljiv sa 2")
-//     }else{
-//         console.log(numbers[i]," nije deljiv sa 2")
-//     }
-// }
+    //     if(numbers[i]%2===0){
+        //         console.log(numbers[i]," deljiv sa 2")
+        //     }else{
+            //         console.log(numbers[i]," nije deljiv sa 2")
+            //     }
+            // }
+ ///////////////////////////////////domaci   
+brojevi=[1,2,3,1,2,1,2,1,2];
 
-unos=parseInt(prompt("koliko zelis brojeva da uneses"))
-ar=[]
-for(i=0;i<unos;i++){
-    unos2=parseInt(prompt("unesi broj"))
-    ar[i]=unos2
-    if(ar[i]%2===0){
-        console.log(ar[i],"je deljiv sa 2")
-    }else{
-        console.log(ar[i],"nije deljiv sa 2")
+for(i=0;i<brojevi.length;i++){
+    if(brojevi[i]=== 1 && 2){
+        brojevi.splice(i,2)
     }
 }
-console.log(ar)
+console.log(brojevi);
 
