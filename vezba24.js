@@ -294,7 +294,7 @@
 //        console.log(i)
 //    }
 // }
-
+////////////////////////////////////////////////////////faktorijal
 // unos=parseInt(prompt("unesi broj"))
 // brojac=1;
 // fakt=1
@@ -516,12 +516,68 @@
             //     }
             // }
  ///////////////////////////////////domaci   
-brojevi=[1,2,3,1,2,1,2,1,2];
+// brojevi=[1,2,3,1,2];
 
-for(i=0;i<brojevi.length;i++){
-    if(brojevi[i]=== 1 && 2){
-        brojevi.splice(i,2)
+// for(i=0;i<brojevi.length;i++){
+//     if(brojevi[i]=== 1 && 2){
+//         brojevi.splice(i,2)
+//     }
+// }
+// console.log(brojevi);
+
+
+// brojevi=[1,3,2,4,6,7,8,6,5,4,4,5,4,5,43,5,54,45,4,45]
+// brojevi2=[1,32,2,44,65,76,54,3,234]
+// ar=[]
+
+// for(i=0;i<brojevi.length;i++){
+//     for(j=0;j<brojevi2.length;j++){
+//         if(brojevi[i]===brojevi2[j]){
+//            ar.push(brojevi[i])
+//         }
+//     }
+// }
+// console.log(ar)
+
+// unos=parseInt(prompt("koliko zelis da uneses brojeva"))
+// ar=[]
+// for(i=0;i<=unos;i++){
+//     unos2=parseInt(prompt("unesi broj"))
+//     ar[i]=unos2
+//     if(ar[i] %2===0){
+//         console.log(ar[i],"je deljiv sa 2")
+//      }
+//      else{
+//          console.log(ar[i],"nije deljiv sa 2")
+//      }
+// }
+
+
+// unos=parseInt(prompt("koliko elemenata zelite da unesete"))
+// ar=[]
+// for(i=0;i<unos;i++){
+//     unos2=prompt("unesi element");
+//     ar[i]=unos2
+// }
+// console.log(ar)
+// unos3=prompt("da li je vas unos ispravan")
+// while(unos3!=="0"){
+//     promena=prompt("unesite 1 da dodate ili 2 da maknete")
+//     inx=parseInt(prompt("unesite index"))
+//     if(promena === "1"){
+//         noviel=prompt("unesite elemnet")
+//         ar.splice(inx,0,noviel)
+//     }else if(promena=== "2"){
+//         ar.splice(inx,1)
+//     }
+//     console.log(ar)
+//     unos3=prompt("da li je vas unos ispravan")
+// }
+
+data=[3,21,32,36,37,56,8,12,16,18,20,68,69]
+ unos=parseInt(prompt("index kojeg broja zelite da znate"))
+for(i=0;i<data.length;i++){
+    if(data[i]=== unos){
+        console.log("vas broj je na idexu",i)
     }
 }
-console.log(brojevi);
-
