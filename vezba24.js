@@ -574,10 +574,90 @@
 //     unos3=prompt("da li je vas unos ispravan")
 // }
 
-data=[3,21,32,36,37,56,8,12,16,18,20,68,69]
- unos=parseInt(prompt("index kojeg broja zelite da znate"))
-for(i=0;i<data.length;i++){
-    if(data[i]=== unos){
-        console.log("vas broj je na idexu",i)
+// data=[3,21,32,36,37,56,8,12,16,18,20,68,69]
+//  unos=parseInt(prompt("index kojeg broja zelite da znate"))
+// for(i=0;i<data.length;i++){
+//     if(data[i]=== unos){
+//         console.log("vas broj je na idexu",i)
+//     }
+// }
+
+// a=[3,6,23,9,44,14,83,22,5,1];
+// sum=0;
+// brojel=a.length
+// for(i=0;i<a.length;i++){
+//     sum=sum+a[i]
+// }
+// console.log(sum/a.length)
+//======================================
+// arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
+// a=[]
+// for(i=0;i<arr.length;i++){
+//     if(arr[i]===0){
+//         arr.splice(i,1)
+//         arr.push(0)
+//     }
+// }
+
+// console.log(arr)
+//==================================
+// arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
+// max=arr[0]
+// min=arr[0]
+// for(el of arr){
+//     if(el>max){
+//         max=el
+//     }else if(min>el){
+//         min=el
+//     }
+// }
+
+// console.log(max-min)
+
+// arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
+// for(i=0;i<arr.length;i++){
+//     if(arr[i]===77 && 65){
+//         console.log("da")
+//     }else{
+//         console.log("ne")
+//     }
+//  }
+
+
+// arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
+// for(i=0;i<arr.length;i++){
+//     if(arr[i]===0){
+//         arr.splice(i,1)
+//         arr.push(0)
+//     }
+// }
+// console.log(arr)
+//=======================================================
+
+// arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
+// brojac=0;
+// while(brojac<arr.length){
+//     console.log(arr[brojac])
+//     brojac++
+// }
+//========================================
+// arr=[1,0,1,0,1,0,1,0,1,0,1,0,1,0];
+// for(i=0;i<arr.length;i++){
+//     if(arr[i]===1){
+//         arr.splice(i,1)
+//         arr.unshift(1)
+//     }
+// }
+// console.log(arr)
+
+arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
+max=arr[0]
+min=arr[0]
+for(el of arr){
+    if(el > max){
+        max=el
+    }else if(min > el){
+        min=el
     }
 }
+console.log(max,min)

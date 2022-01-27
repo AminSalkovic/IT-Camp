@@ -32,7 +32,7 @@
     background-color: rgb(73, 68, 68);
 }
 #button2{
-    width: 180px;
+    width: 200px;
     height: 50px;
     margin-top: 30px;
     border: none;
@@ -89,6 +89,7 @@
     width: 1200px;
     height: 480px;
     background: white;
+    box-shadow: 0px 0px 30px;
     display: flex;
 }
 .div6{
@@ -97,6 +98,28 @@
     background: white;
     margin-left: -30px;
     margin-top: 120px;
-    border: 1px solid black;
+    box-shadow: 0px 0px 30px;
+    display: flex;
 
+}
+
+.div6b{
+    width:300px;
+    height:150px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(224, 230, 233);
+}
+.div6b h5{
+    color: rgb(101, 126, 211);
+    font-size: 23px;
+    margin-left: 10px;
+}
+.div6b ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 30px;
+}
+.div6b ul li:hover{
+    background-color: rgb(224, 230, 233);
 }
