@@ -630,8 +630,8 @@
 //         arr.splice(i,1)
 //         arr.push(0)
 //     }
-// }
 // console.log(arr)
+// }
 //=======================================================
 
 // arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
@@ -641,23 +641,66 @@
 //     brojac++
 // }
 //========================================
-// arr=[1,0,1,0,1,0,1,0,1,0,1,0,1,0];
-// for(i=0;i<arr.length;i++){
-//     if(arr[i]===1){
-//         arr.splice(i,1)
-//         arr.unshift(1)
-//     }
-// }
-// console.log(arr)
 
-arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
-max=arr[0]
-min=arr[0]
-for(el of arr){
-    if(el > max){
-        max=el
-    }else if(min > el){
-        min=el
-    }
+// arr=[3,6,0,23,0,9,44,14,0,83,22,5,0,1];
+// max=arr[0]
+// min=arr[0]
+// for(el of arr){
+    //     if(el > max){
+        //         max=el
+        //     }else if(min > el){
+            //         min=el
+            //     }
+            // }
+// console.log(max,min)
+
+//   arr=[1,0,1,0,1,0,1,0,1,0,1,0,1,0];
+//  for(i=0;i<arr.length;i++){
+//      if(arr[i]===1){
+//          arr.splice(i,1)
+//         arr.unshift(1)
+//      }
+//  }
+//  console.log(arr);
+
+//===================================
+//  arr=[[1,2,3],2]
+//  console.log(arr[0][2])
+//=====================================
+
+// function sayhello(){
+//     console.log("nesto")
+// }
+
+// sayhello();
+
+// function sum(){
+//     unos=parseInt(prompt("unesi prvi broj"));
+//     unos2=parseInt(prompt("unesi drugi broj"))
+//     console.log("zbir ova dva broja je",unos+unos2)
+// }
+
+// sum();
+
+// function sayhello(ime){
+//     console.log("hello",ime)
+// }
+// sayhello("amin")
+// sayhello("saki")
+// //samo menjamo parametre
+
+// function numbers(a,b){
+//     console.log(a+b)
+// }
+// numbers(4,5)
+
+// function mojaF(){
+//     console.log("Asd")
+//     console.log("ccc")
+//     return "okay"
+// }
+// mojaF();
+
+function solution(str){
+    
 }
-console.log(max,min)
