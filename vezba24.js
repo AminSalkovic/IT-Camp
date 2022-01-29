@@ -701,6 +701,11 @@
 // }
 // mojaF();
 
-function solution(str){
-    
-}
+// function solution(str){
+//     string=""
+//     for(i=str.length-1;i>=0;i--){
+//         string+=str[i]
+//     }
+//     return string
+// }
+// solution(str)
