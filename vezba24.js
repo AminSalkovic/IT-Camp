@@ -709,3 +709,22 @@
 //     return string
 // }
 // solution(str)
+
+// function mojaF(){
+//     console.log("Asd")
+//     console.log("ccc")
+//     return "okay"
+// }
+// mojaF();
+
+// console.log(max,min)
+
+function reverseLetter(str) {
+  
+    return str.split('')
+                .reverse()
+                .filter(val => /[a-zA-Z]/.test(val))
+                .join('');  
+
+    }
+reverseLetter("amnsss")
