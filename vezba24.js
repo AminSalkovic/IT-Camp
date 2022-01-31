@@ -719,12 +719,32 @@
 
 // console.log(max,min)
 
-function reverseLetter(str) {
+// function reverseLetter(str) {
   
-    return str.split('')
-                .reverse()
-                .filter(val => /[a-zA-Z]/.test(val))
-                .join('');  
+//     return str.split('')
+//                 .reverse()
+//                 .filter(val => /[a-zA-Z]/.test(val))
+//                 .join('');  
 
-    }
-reverseLetter("amnsss")
+//     }
+// reverseLetter("amnsss");
+
+// function century(year) {
+//     return Math.ceil(year/100)
+//    }
+   
+// function basicOp(operation, value1, value2) {
+//     switch (operation) {
+//         case '+':
+//             return value1 + value2;
+//         case '-':
+//             return value1 - value2;
+//         case '*':
+//             return value1 * value2;
+//         case '/':
+//             return value1 / value2;
+//         default:
+//             return 0;
+//     }
+// }
+
