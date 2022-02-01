@@ -747,4 +747,38 @@
 //             return 0;
 //     }
 // }
+function calculator(){
+unos=prompt("unesi operaciju koju zelis:+,-,*,/")
+while(unos!== "stop"){
+    unos1=parseInt(prompt("unesi prvi broj"))
+    unos2=parseInt(prompt("unesi drgi broj"))
+    switch(unos){
+        case '+':
+            console.log(unos1+unos2);
+            break;
+        case '-':
+            console.log(unos1-unos2);
+            break;
+        case '*':
+                console.log(unos1*unos2);
+             break;
+        case '/':
+                console.log(unos1/unos2);
+        break;
+        default:
+            console.log("greska")
+                
+    }
+    unos=prompt("unesi operaciju koju zelis:+,-,*,/")
+   }
+}
+
+unos=prompt("unesi sta zelis")
+
+if(unos==="calculator"){
+    calculator();
+}else{
+    console.log("nista")
+}
+
 

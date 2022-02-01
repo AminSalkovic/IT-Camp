@@ -561,4 +561,54 @@
 //          }
 // }
 //  console.log(ar)
-            
+
+// unos=parseInt(prompt("koliko zelite stringova"))
+// ar=[]
+// for(i=0;i<unos;i++){
+//     unos2=prompt("unesi string")
+//     ar[i]=unos2
+
+// }
+
+// console.log(ar)
+
+// names=["amin","saki","salkan"]
+// console.log(names)
+// names.shift()
+// console.log(names)
+
+// function imena(){
+//     names=["amin","saki","salkan"]
+//     for(i=0;i<names.length;i++){
+//         if(names[i]==="amin"){
+//             names.splice(i,1)
+//             }
+//         }
+//         console.log(names)
+// }
+
+// imena()
+
+// unos=prompt("unesi operaciju koju zelis:+,-,*,/")
+// while(unos!== "stop"){
+//     unos1=parseInt(prompt("unesi prvi broj"))
+//     unos2=parseInt(prompt("unesi drgi broj"))
+//     switch(unos){
+//         case '+':
+//             console.log(unos1+unos2);
+//             break;
+//         case '-':
+//             console.log(unos1-unos2);
+//             break;
+//         case '*':
+//                 console.log(unos1*unos2);
+//              break;
+//         case '/':
+//                 console.log(unos1/unos2);
+//         break;
+//         default:
+//             console.log("greska")
+                
+//     }
+//     unos=prompt("unesi operaciju koju zelis:+,-,*,/")
+// }
