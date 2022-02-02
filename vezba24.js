@@ -747,38 +747,59 @@
 //             return 0;
 //     }
 // }
-function calculator(){
-unos=prompt("unesi operaciju koju zelis:+,-,*,/")
-while(unos!== "stop"){
-    unos1=parseInt(prompt("unesi prvi broj"))
-    unos2=parseInt(prompt("unesi drgi broj"))
-    switch(unos){
-        case '+':
-            console.log(unos1+unos2);
-            break;
-        case '-':
-            console.log(unos1-unos2);
-            break;
-        case '*':
-                console.log(unos1*unos2);
-             break;
-        case '/':
-                console.log(unos1/unos2);
-        break;
-        default:
-            console.log("greska")
-                
-    }
-    unos=prompt("unesi operaciju koju zelis:+,-,*,/")
-   }
-}
+// x=basicOp('+',4,5)
+// console.log(x)
 
-unos=prompt("unesi sta zelis")
+// function myFunction(a, b) {
+//     return a * b;
+//   }
+  
+//   let x = myFunction(4, 3);
+// console.log(x)
 
-if(unos==="calculator"){
-    calculator();
-}else{
-    console.log("nista")
-}
+// unos=prompt("unesi string")
+// unosr="";
+// for(i=unos.length - 1;i>=0;i--){
+//     unosr+=unos[i]
+// }
+// console.log(unosr)
+
+//  unos=prompt("unesi ime")
+// for(i=0;i< unos.length;i++){
+//     console.log(unos[i]);
+// }
 
 
+// function digitize(n){
+//    ar=n.split('')
+//     noviar=ar.reverse()
+//     novi2=noviar.join('')
+//     return novi2
+// }
+// console.log(digitize("12332423123"))
+
+// function digitize(n) {
+//    return n.split('').reverse().join('')
+// }
+// console.log(digitize("3232424"))
+
+// const a = 5;
+// console.log(a);
+// a = 7;
+// console.log(a);
+
+
+// function mojaF() {
+//   let funA = 7;
+//   for (let i = 0; i < 5; i++) {
+//     let forA = 5;
+//     console.log(forA);
+//     console.log(funA)
+//   }
+// }
+
+// mojaF();
+
+let a=5
+ a=6
+console.log(a)

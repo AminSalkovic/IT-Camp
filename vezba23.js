@@ -443,59 +443,6 @@
 
 // console.log("Pogodiliste broj");
 
-//Domaci:Napraviti kalkulator koji ce sve dok korisnik ne unese STOP pitati za operaciju +,-,*,/ i nakon odabira
-//pitati za dva broja na koje ce se primeniti operacija i ispisati rezultat i sve se ponoviti
-
-
-// unos=prompt("unesi operaciju koju zelis:+,-,*,/");
-// while(unos !== "stop"){ 
-// if(unos === "+"){
-//     unos2=parseInt(prompt("unesi prvi broj"))
-//     unos3=parseInt(prompt("unesi drugi broj"))
-//     console.log("rezultat vasih brojeva je",unos2+unos3)
-// }else if(unos === "-"){
-//     unos2=parseInt(prompt("unesi prvi broj"))
-//     unos3=parseInt(prompt("unesi drugi broj"))
-//     console.log("rezultat vasih brojeva je",unos2-unos3)
-// }else if(unos === "*"){
-//     unos2=parseInt(prompt("unesi prvi broj"))
-//     unos3=parseInt(prompt("unesi drugi broj"))
-//     console.log("rezultat vasih brojeva je",unos2*unos3)
-// }else if(unos === "/"){
-//     unos2=parseInt(prompt("unesi prvi broj"))
-//     unos3=parseInt(prompt("unesi drugi broj"))
-//     console.log("rezultat vasih brojeva je",unos2/unos3)
-//      } 
-// unos=prompt("unesi operaciju koju zelis");
-// }
-
-// unos=prompt("unesi operaciju koju zelis:/,-,*,/")
-
-// while(unos !== "stop"){
-//   switch(true){
-//       case(unos === "+"):
-//       unos2=parseInt(prompt("unesi prvi broj"));
-//       unos3=parseInt(prompt("unesi drugi broj"));
-//       console.log(`rezultat unetih brojeva je ${unos2+unos3}`);
-//       break;
-//       case(unos === "-"):
-//       unos2=parseInt(prompt("unesi prvi broj"));
-//       unos3=parseInt(prompt("unesi drugi broj"));
-//       console.log(`rezultat unetih brojeva je ${unos2-unos3}`);
-//       break;
-//       case(unos === "*"):
-//       unos2=parseInt(prompt("unesi prvi broj"));
-//       unos3=parseInt(prompt("unesi drugi broj"));
-//       console.log(`rezultat unetih brojeva je ${unos2*unos3}`);
-//       break;
-//       case(unos === "/"):
-//       unos2=parseInt(prompt("unesi prvi broj"));
-//       unos3=parseInt(prompt("unesi drugi broj"));
-//       console.log(`rezultat unetih brojeva je ${unos2/unos3}`);
-//       break;
-//   }
-//  unos=prompt("unesi operaciju koju zelis:/,-,*,/")
-// }
 
 // unos=parseInt(prompt("unesi broj"))
 // brojac=1;
@@ -589,26 +536,133 @@
 
 // imena()
 
-// unos=prompt("unesi operaciju koju zelis:+,-,*,/")
-// while(unos!== "stop"){
-//     unos1=parseInt(prompt("unesi prvi broj"))
-//     unos2=parseInt(prompt("unesi drgi broj"))
-//     switch(unos){
-//         case '+':
-//             console.log(unos1+unos2);
-//             break;
-//         case '-':
-//             console.log(unos1-unos2);
-//             break;
-//         case '*':
-//                 console.log(unos1*unos2);
-//              break;
-//         case '/':
-//                 console.log(unos1/unos2);
-//         break;
-//         default:
-//             console.log("greska")
-                
+// function calculator(){
+//     function basicOp(operation, value1, value2) {
+//         switch (operation) {
+//             case '+':
+//                 return value1 + value2;
+//             case '-':
+//                 return value1 - value2;
+//             case '*':
+//                 return value1 * value2;
+//             case '/':
+//                 return value1 / value2;
+//             default:
+//                 return 0;
+//         }
 //     }
+//     operation=prompt("unesi sta zelis:+,-,/,*")
+//         value1=parseInt(prompt("unesi broj"))
+//         value2=parseInt(prompt("unesi broj"))
+//      let x=basicOp(operation, value1, value2)
+//     console.log(x)
+//     }
+//     calculator();
+//////////////////////////////////////////////////////////////
+// function calculator(){
 //     unos=prompt("unesi operaciju koju zelis:+,-,*,/")
+//     while(unos!== "stop"){
+//         unos1=parseInt(prompt("unesi prvi broj"))
+//         unos2=parseInt(prompt("unesi drgi broj"))
+//         switch(unos){
+//             case '+':
+//                 console.log(unos1+unos2);
+//                 break;
+//             case '-':
+//                 console.log(unos1-unos2);
+//                 break;
+//             case '*':
+//                     console.log(unos1*unos2);
+//                  break;
+//             case '/':
+//                     console.log(unos1/unos2);
+//             break;
+//             default:
+//                 console.log("greska")
+//             }
+//     unos=prompt("unesi operaciju koju zelis:+,-,*,/")
+//    }
 // }
+    
+//     unos=prompt("unesi sta zelis")
+    
+//     if(unos==="calculator"){
+//         calculator();
+//     }else{
+//         console.log("nista")
+//     }
+///////======================================
+// function calculator(){
+// function basicOp(operation, value1, value2) {
+//     switch (operation) {
+//         case '+':
+//             return value1 + value2;
+//         case '-':
+//             return value1 - value2;
+//         case '*':
+//             return value1 * value2;
+//         case '/':
+//             return value1 / value2;
+//         default:
+//             return 0;
+//     }
+// }
+// operation=prompt("unesi sta zelis:+,-,/,*")
+//     value1=parseInt(prompt("unesi broj"))
+//     value2=parseInt(prompt("unesi broj"))
+//  let x=basicOp(operation, value1, value2)
+// console.log(x)
+// }
+// calculator();
+
+function poens(){
+    function myFunction(num){
+        switch(true){
+            case(num<30):
+            return "good";
+            case(num<=70):
+            return "verygood";
+            case(num<=90):
+            return "excelent";
+            case(num<=100):
+            return "perfect"
+        } 
+    }
+    num=parseInt(prompt("unesi broj"))
+    let y=myFunction(num)
+    console.log(y)
+    }
+    
+    function calculator(){
+        function basicOp(operation, value1, value2) {
+          switch (operation) {
+             case '+':
+                return value1 + value2;
+             case '-':
+                return value1 - value2;
+             case '*':
+                return value1 * value2;
+             case '/':
+                return value1 / value2;
+             default:
+                return 0;
+        }
+    }
+    operation=prompt("unesi sta zelis:+,-,/,*")
+        value1=parseInt(prompt("unesi broj"))
+        value2=parseInt(prompt("unesi broj"))
+     let x=basicOp(operation, value1, value2)
+    console.log(x)
+    }
+    
+    unos=prompt("calculator or poens")
+    while(unos!=="stop"){
+        if(unos==="calculator"){
+            calculator();
+        }else if(unos==="poens"){
+            poens();
+        }else{
+            console.log("wrong input")
+        }
+        unos=prompt("calculator or poens")
+    }
