@@ -799,3 +799,41 @@
 // }
 
 // mojaF();
+
+// function square(numbers){
+//     sum=0
+//     for(number of numbers){
+//         sum+=number**2
+//     }
+//     return sum
+// }
+//===========================================
+// function remove(string){
+//     newString=""
+//     for(i=0;i<string.length;i++){
+//         if(string[i]!=="!"){
+//             newString+=string[i]
+//         }
+//     }
+
+//     newString+="!"
+//     return newString;
+// }
+
+// function abbrevName(name){
+//    const arr=name.split('')
+//     const f=arr[0][0].toUpperCase()
+//     const p=arr[1][0].toUpperCase()
+//     const newString=f+"."+p
+//     return newString
+// }
+
+// function enough(cap, on, wait) {
+//     const diff=cap-on-wait
+//     if(diff>=0){
+//         return 0
+//     }
+//     return Math.abs(diff)
+//  }
+
+//  console.log(enough(10,5,5))

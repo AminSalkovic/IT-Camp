@@ -95,10 +95,3 @@ opacity: .8;
     background:rgb(68, 184, 103);
     color: white;
 }
-@media only screen and(max-width:600px)  {
-    .div3 input{
-        display: block;
-        
-    }
-    
-}
