@@ -837,3 +837,8 @@
 //  }
 
 //  console.log(enough(10,5,5))
+
+// function litres(time){
+     
+//     return Math.floor(time*05);
+//   }
