@@ -615,54 +615,63 @@
 // }
 // calculator();
 
-function poens(){
-    function myFunction(num){
-        switch(true){
-            case(num<30):
-            return "good";
-            case(num<=70):
-            return "verygood";
-            case(num<=90):
-            return "excelent";
-            case(num<=100):
-            return "perfect"
-        } 
-    }
-    num=parseInt(prompt("unesi broj"))
-    let y=myFunction(num)
-    console.log(y)
-    }
+// function poens(){
+//     function myFunction(num){
+//         switch(true){
+//             case(num<30):
+//             return "good";
+//             case(num<=70):
+//             return "verygood";
+//             case(num<=90):
+//             return "excelent";
+//             case(num<=100):
+//             return "perfect"
+//         } 
+//     }
+//     num=parseInt(prompt("unesi broj"))
+//     let y=myFunction(num)
+//     console.log(y)
+//     }
     
-    function calculator(){
-        function basicOp(operation, value1, value2) {
-          switch (operation) {
-             case '+':
-                return value1 + value2;
-             case '-':
-                return value1 - value2;
-             case '*':
-                return value1 * value2;
-             case '/':
-                return value1 / value2;
-             default:
-                return 0;
-        }
-    }
-    operation=prompt("unesi sta zelis:+,-,/,*")
-        value1=parseInt(prompt("unesi broj"))
-        value2=parseInt(prompt("unesi broj"))
-     let x=basicOp(operation, value1, value2)
-    console.log(x)
-    }
+//     function calculator(){
+//         function basicOp(operation, value1, value2) {
+//           switch (operation) {
+//              case '+':
+//                 return value1 + value2;
+//              case '-':
+//                 return value1 - value2;
+//              case '*':
+//                 return value1 * value2;
+//              case '/':
+//                 return value1 / value2;
+//              default:
+//                 return 0;
+//         }
+//     }
+//     operation=prompt("unesi sta zelis:+,-,/,*")
+//         value1=parseInt(prompt("unesi broj"))
+//         value2=parseInt(prompt("unesi broj"))
+//      let x=basicOp(operation, value1, value2)
+//     console.log(x)
+//     }
     
-    unos=prompt("calculator or poens")
-    while(unos!=="stop"){
-        if(unos==="calculator"){
-            calculator();
-        }else if(unos==="poens"){
-            poens();
-        }else{
-            console.log("wrong input")
-        }
-        unos=prompt("calculator or poens")
-    }
+//     unos=prompt("calculator or poens")
+//     while(unos!=="stop"){
+//         if(unos==="calculator"){
+//             calculator();
+//         }else if(unos==="poens"){
+//             poens();
+//         }else{
+//             console.log("wrong input")
+//         }
+//         unos=prompt("calculator or poens")
+//     }
+
+
+// function abbrevName(name){
+//    const arr=name.split('')
+//     const f=arr[0][0].toUpperCase()
+//     const p=arr[1][0].toUpperCase()
+//     const newString=f+"."+p
+//     return newString
+// }
