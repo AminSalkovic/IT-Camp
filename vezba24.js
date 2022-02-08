@@ -374,7 +374,7 @@
 // console.log(sum)
 //trazimo najveci broj
 
-// arr=[1,2,34,5,,6]
+// arr=[1,2,34,5,6]
 // max=arr[0]
 // for(i=0;i<arr.length;i++){
 //    if(max<arr[i]){
@@ -842,3 +842,15 @@
      
 //     return Math.floor(time*05);
 //   }
+
+
+
+
+// function  nesto(name){
+//    a= name.split('')
+//    b=a.shift().toUpperCase()
+//    return b+a.join('')
+
+// }
+
+// console.log(nesto("amin"))

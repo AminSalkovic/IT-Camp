@@ -675,3 +675,17 @@
 //     const newString=f+"."+p
 //     return newString
 // }
+
+// const intDiff = (arr, n) => {
+//     brojac=0
+//     for(i=0;i<arr.length;i++){
+//       for(j=i+1;j<arr.length;j++){
+//         if(Math.abs(arr[i]-arr[j])===n){
+//           brojac++
+//         }
+//       }
+//     }
+//     return brojac
+//   }
+
+

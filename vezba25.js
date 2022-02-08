@@ -15,8 +15,3 @@
 //  }
 // console.log(vezba("amin")) 
 
-names="amin"
-for(i=0;i<names.length;i++){
-    
-    console.log(names[i].toUpperCase([0][0]))
-}
