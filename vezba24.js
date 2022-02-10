@@ -838,3 +838,9 @@
 // }
 
 // console.log(nesto("amin"))
+
+function numbers(a,b){
+ return a*b
+}
+let x=numbers(1,2)
+console.log(x)
