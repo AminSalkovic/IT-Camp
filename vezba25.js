@@ -28,19 +28,19 @@
 // console.log(domaci(["Saki",1,"sasdad",2,"amin",4,"amco"]))
 
 
-function numbers(a,b){
-  ar=[]
-   for(i=0;i<a.length;i++){
-     for(j=0;j<b.length;j++){
-       if(a[i]===b[j]){
-         ar.push(a[i])
-       }
-     }
-   }
-   return "ovo su isti brojevi"+" "+ ar.join(' ')
- }
- let x=numbers([1,2,34,5465,5656,4443,223,4],[23,3232,422,2,3232,4,1])
- console.log(x)
+// function numbers(a,b){
+//   ar=[]
+//    for(i=0;i<a.length;i++){
+//      for(j=0;j<b.length;j++){
+//        if(a[i]===b[j]){
+//          ar.push(a[i])
+//        }
+//      }
+//    }
+//    return "ovo su isti brojevi"+" "+ ar.join(' ')
+//  }
+//  let x=numbers([1,2,34,5465,5656,4443,223,4],[23,3232,422,2,3232,4,1])
+//  console.log(x)
 
 
 // function sas(){
@@ -48,9 +48,57 @@ function numbers(a,b){
 //   unos=parseInt(prompt("index kojeg broja zelite da znate"))
 //   for(i=0;i<data.length;i++){
 //     if(data[i]=== unos){
-//       return a="vas broj je na indexu"+" "+i
+//       return  a="vas broj je na indexu"+" "+i
 //     }
 //   }
+ 
 // } 
 
 // console.log(sas())
+
+// var library=[
+
+//     {
+//         autor:"bill gates",
+//         title: "the road ahead",
+//         readingStatus: true,
+//     },
+//     {
+//         autor:"steve",
+//         title: "walter",
+//         readingStatus: true,
+//     },
+//     {
+//         autor:"suzane",
+//         title: "the road aheasdsdsdsdsdd",
+//         readingStatus: false,
+//     }
+// ]
+
+
+// for(let i=0;i<library.length;i++){
+//     console.log(library[i].autor,library[i].readingStatus)
+// }
+// function user(){
+
+//     const osoba={}  
+
+//         osoba.ime=prompt("unesi ime")
+//         osoba. prezime=prompt("unesi prezime")
+//         osoba. god=parseInt(prompt("unesi god"))
+//         osoba. visina=prompt("unesi visinu")
+//         return osoba
+// }
+    
+//   console.log(user());
+
+
+const car={
+    name:"audi",
+    model:"a7",
+};
+const keys=Object.keys(car);
+
+for(let key of keys){
+    console.log(car([keys]))
+}
