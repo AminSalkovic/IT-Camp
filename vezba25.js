@@ -93,12 +93,48 @@
 //   console.log(user());
 
 
-const car={
-    name:"audi",
-    model:"a7",
-};
-const keys=Object.keys(car);
+// const car={
+//     name:"audi",
+//     model:"a7",
+// };
+// const keys=Object.keys(car);
 
-for(let key of keys){
-    console.log(car([keys]))
+// for(let key of keys){
+//     console.log(car([keys]))
+// }
+
+// function user(){
+//       const osoba={}  
+//         osoba.ime=prompt("unesi ime")
+//         osoba. prezime=prompt("unesi prezime")
+//         osoba. god=parseInt(prompt("unesi god"))
+//         osoba. visina=prompt("unesi visinu")
+//         return osoba
+// }
+// console.log(user());
+
+// function user(){
+//     const car={
+//         name:"bmw",
+//         price:22123,
+//         color:"black",
+//     }
+//     unos=prompt("what you want to know about car");
+//       switch(unos){
+//         case "name":
+//             return car.name;
+//         case "price":
+//             return car.price;
+//         case "color":
+//             return car.color;
+//         default:
+//             return "pogresan unos"
+            
+//         }
+// }
+// console.log(user());
+
+unos=prompt("what you want to know about car");
+while( unos!== "stop"){
+    unos=prompt("what you want to know about car");
 }
