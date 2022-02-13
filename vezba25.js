@@ -113,6 +113,8 @@
 // }
 // console.log(user());
 
+
+
 // function user(){
 //     const car={
 //         name:"bmw",
@@ -134,7 +136,66 @@
 // }
 // console.log(user());
 
-unos=prompt("what you want to know about car");
-while( unos!== "stop"){
-    unos=prompt("what you want to know about car");
+function calculator(){
+    function basicOp(operation, value1, value2) {
+        switch (operation) {
+            case '+':
+                return value1 + value2;
+            case '-':
+                return value1 - value2;
+            case '*':
+                return value1 * value2;
+            case '/':
+                return value1 / value2;
+            default:
+                return 0;
+        }
+    }
+    operation=prompt("unesi sta zelis:+,-,/,*")
+        value1=parseInt(prompt("unesi broj"))
+        value2=parseInt(prompt("unesi broj"))
+     let x=basicOp(operation, value1, value2)
+    console.log(x)
+    }
+    function poens(){
+    function myFunction(num){
+        switch(true){
+            case(num<30):
+            return "good";
+            case(num<=70):
+            return "verygood";
+            case(num<=90):
+            return "excelent";
+            case(num<=100):
+            return "perfect"
+        } 
+    }
+    num=parseInt(prompt("unesi broj"))
+    let y=myFunction(num)
+    console.log(y)
+    }
+function  log(){
+     const user={
+       email:"a",
+       password:"s",
+     }
+     unos=prompt("input your email");
+     unos2=prompt("input your password");
+
+       if(unos=== user.email && unos2===user.password){
+             unos=prompt("wich program you want")
+              switch(unos){
+                  case "calculator":
+                      calculator();
+                    break;
+                    case "poens":
+                        poens();
+                break
+              }     
+        }
+            
+ return 0
+    
 }
+
+console.log(log())
