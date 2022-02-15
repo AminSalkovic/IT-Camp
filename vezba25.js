@@ -136,10 +136,40 @@
 // }
 // console.log(user());
 //==============================================domaci
-function num(){
-   const number={ a:1,b:2,}
-    delete number.b;
-   return number
-}
-console.log(num());
-//==================================================
+// function num(){
+//    const number={ a:1,b:2,}
+//     delete number.b;
+//    return number
+// }
+// console.log(num());
+
+
+//==============================================================;;;;;
+
+// function  space(s){
+//    if(s[0]===" " || s[s.length-1]===" "){
+//        return false
+//    }
+//     for(i=0;i<s.length-1;i++){
+//         if(s[i]===" "){
+//             if(s[i]===" "){
+//                 return false
+//             }
+//         }
+//     }
+//    return true
+// }
+// console.log(space("sa ss"))
+//============================///////====
+
+function pyramid(balls) {
+    brojac=0
+    while(balls>=brojac+1){
+      brojac++
+      balls=balls-brojac
+    }
+      return brojac
+  } 
+
+
+console.log(pyramid(100))
