@@ -162,14 +162,22 @@
 // console.log(space("sa ss"))
 //============================///////====
 
-function pyramid(balls) {
-    brojac=0
-    while(balls>=brojac+1){
-      brojac++
-      balls=balls-brojac
-    }
-      return brojac
-  } 
+// function pyramid(balls) {
+//     brojac=0
+//     while(balls>=brojac+1){
+//       brojac++
+//       balls=balls-brojac
+//     }
+//       return brojac
+//   } 
 
 
-console.log(pyramid(100))
+
+// console.log(pyramid(100))
+
+// function num(){
+//    const number={ a:1,b:2,}
+//     delete number.b;
+//    return number
+// }
+// console.log(num());
