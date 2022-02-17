@@ -65,13 +65,30 @@
 //==============================================
 
 
-const data={
-    a:1,
-    b:2
+// const data={
+//     a:1,
+//     b:2
+// }
+// keys=Object.keys(data)
+// const arr=[]
+// for(el of keys){
+//     arr.push([el,data[el]])
+// }
+// console.log(arr)
+
+
+const a={
+    name:"amin",
+    suranme:"salkovic",
+    age:18,
 }
-keys=Object.keys(data)
-const arr=[]
-for(el of keys){
-    arr.push([el,data[el]])
-}
-console.log(arr)
+const b={...a,}
+b.age=28
+
+const c={...a,}
+c.name="saki",c.age=26
+
+
+console.log(a)
+console.log(b)
+console.log(c)

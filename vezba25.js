@@ -181,3 +181,30 @@
 //    return number
 // }
 // console.log(num());
+
+// function korisnici(ages){
+//     const users=[
+//         {
+//            name:"amin",surname:"salkovic",age:18,
+//         },
+//         {
+//             name:"saki",surname:"saki",age:20,
+//          },
+//          {
+//             name:"saki",surname:"salkan",age:18,
+//          },
+//          {
+//             name:"nesto",surname:"nista",age:32,
+//          },
+//     ]
+//      const ar=[]
+//     for(i=0;i<users.length;i++){
+//         if(users[i].age===ages){
+            
+//             ar.push(users[i])
+//         }
+//     }
+//     return [ar]
+// }
+// let x=korisnici(18)
+// console.log(x)
