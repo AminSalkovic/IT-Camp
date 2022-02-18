@@ -76,8 +76,54 @@
 // }
 // console.log(arr)
 
-const user={
-    name:"SD"
-}
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// numbers.forEach((el) => {
+//   if (el % 2 === 0) {
+//     console.log(el);
+//   }
+// });
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+// const evenNumbers = [];
+
+// numbers.forEach((el) => {
+//   if (el > 20) {
+//     evenNumbers.push(el);
+//   }
+// });
+// console.log(evenNumbers)
 
 
+// let str = "the quick brown fox";
+
+// let nStr = "";
+// str = str.split("");
+// str.forEach((el, i) => {
+//   if (i % 2 === 0) {
+//     nStr += el.toLowerCase();
+//   } else {
+//     nStr += el.toUpperCase();
+//   }
+// });
+
+// console.log(nStr);
+
+// const data = [NaN, 0, 15, false, -22, "", undefined, 47, null];
+// let brojac = 0;
+// data.forEach((el) => {
+//   if (!Boolean(el)) {
+//     brojac++;
+//   }
+// });
+// console.log(brojac);
+
+
+const numbers=[2,3,4,5,67,7,89,7654];
+arr=[];
+numbers.forEach((el)=>{
+   if(el%2===0){
+      arr.push(el)
+   }
+});
+console.log(arr.join(','))

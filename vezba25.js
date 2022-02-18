@@ -225,3 +225,14 @@ c.name="saki",c.age=26
 console.log(a)
 console.log(b)
 console.log(c)
+
+// const data={
+//     a:1,
+//     b:2
+// }
+// keys=Object.keys(data)
+// const arr=[]
+// for(el of keys){
+//     arr.push([el,data[el]])
+// }
+// console.log(arr)
