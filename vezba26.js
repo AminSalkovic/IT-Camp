@@ -76,19 +76,8 @@
 // }
 // console.log(arr)
 
-
-const a={
-    name:"amin",
-    suranme:"salkovic",
-    age:18,
+const user={
+    name:"SD"
 }
-const b={...a,}
-b.age=28
-
-const c={...a,}
-c.name="saki",c.age=26
 
 
-console.log(a)
-console.log(b)
-console.log(c)

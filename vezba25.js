@@ -208,3 +208,20 @@
 // }
 // let x=korisnici(18)
 // console.log(x)
+
+
+const a={
+    name:"amin",
+    suranme:"salkovic",
+    age:18,
+}
+const b={...a,}
+b.age=28
+
+const c={...a,}
+c.name="saki",c.age=26
+
+
+console.log(a)
+console.log(b)
+console.log(c)
