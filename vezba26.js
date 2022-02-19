@@ -119,11 +119,61 @@
 // console.log(brojac);
 
 
-const numbers=[2,3,4,5,67,7,89,7654];
-arr=[];
-numbers.forEach((el)=>{
-   if(el%2===0){
-      arr.push(el)
-   }
-});
-console.log(arr.join(','))
+// const numbers=[2,3,4,5,67,7,89,7654];
+// arr=[];
+// numbers.forEach((el)=>{
+//    if(el%2===0){
+//       arr.push(el)
+//    }
+// });
+// console.log(arr.join(','))
+
+
+
+// const num=[1,2,3,4,5,6,7,8,9,10];
+// arr=[];
+// num.forEach((el)=>{
+//     if(el>4){
+//        arr.push(el)
+//     }
+    
+// });
+//    console.log(arr)
+
+
+// function  num(num){
+//    arr=[];
+//    num.forEach((el) => {
+//       if(el>4){
+//         arr.push(el)
+//       }
+//    });
+//    return arr
+// }
+// let x=num([1,2,3,4,5,6,7,8,9,10])
+// console.log(x)
+
+
+// function  rec(word){
+//    return word.split('').reverse().join('')
+   
+// }
+// let x=rec("saki")
+// console.log(x)
+
+function users(){
+  const user=[
+     {name:"amin",age:18,},
+     {name:"saki",age:25,},
+     {name:"saki",age:30,},
+
+  ] 
+  user.forEach((el)=>{
+     arr=[]
+     if((el).age>20){
+        arr.push(user(el))
+      }
+  })
+  return arr
+}
+console.log(users())
