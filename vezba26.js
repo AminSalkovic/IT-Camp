@@ -141,39 +141,13 @@
 //    console.log(arr)
 
 
-// function  num(num){
-//    arr=[];
-//    num.forEach((el) => {
-//       if(el>4){
-//         arr.push(el)
-//       }
-//    });
-//    return arr
-// }
-// let x=num([1,2,3,4,5,6,7,8,9,10])
-// console.log(x)
-
-
-// function  rec(word){
-//    return word.split('').reverse().join('')
-   
-// }
-// let x=rec("saki")
-// console.log(x)
-
-function users(){
-  const user=[
-     {name:"amin",age:18,},
-     {name:"saki",age:25,},
-     {name:"saki",age:30,},
-
-  ] 
-  user.forEach((el)=>{
-     arr=[]
-     if((el).age>20){
-        arr.push(user(el))
-      }
-  })
-  return arr
+  const users=[
+      {name:"Amin",surname:"saki"},
+      {name:"Amin",surname:"amci"},
+      {name:"Amin",surname:"amco"},
+      
+  ]
+   for(i=0;i<users.length;i++){
+       console.log(users[i])
 }
-console.log(users())
+

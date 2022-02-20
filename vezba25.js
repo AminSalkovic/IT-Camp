@@ -210,21 +210,21 @@
 // console.log(x)
 
 
-const a={
-    name:"amin",
-    suranme:"salkovic",
-    age:18,
-}
-const b={...a,}
-b.age=28
+// const a={
+//     name:"amin",
+//     suranme:"salkovic",
+//     age:18,
+// }
+// const b={...a,}
+// b.age=28
 
-const c={...a,}
-c.name="saki",c.age=26
+// const c={...a,}
+// c.name="saki",c.age=26
 
 
-console.log(a)
-console.log(b)
-console.log(c)
+// console.log(a)
+// console.log(b)
+// console.log(c)
 
 // const data={
 //     a:1,
@@ -236,3 +236,24 @@ console.log(c)
 //     arr.push([el,data[el]])
 // }
 // console.log(arr)
+
+// function  num(num){
+//    arr=[];
+//    num.forEach((el) => {
+//       if(el>4){
+//         arr.push(el)
+//       }
+//    });
+//    return arr
+// }
+// let x=num([1,2,3,4,5,6,7,8,9,10])
+// console.log(x)
+
+
+// function  rec(word){
+//    return word.split('').reverse().join('')
+   
+// }
+// let x=rec("saki")
+// console.log(x)
+
