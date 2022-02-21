@@ -257,3 +257,13 @@
 // let x=rec("saki")
 // console.log(x)
 
+// const num=[1,2,3,4,5,6,7,8,9,10];
+// arr=[];
+// num.forEach((el)=>{
+//     if(el>4){
+//        arr.push(el)
+//     }
+    
+// });
+//    console.log(arr)
+

@@ -140,14 +140,122 @@
 // });
 //    console.log(arr)
 
+// const a=[1,2,3,4]
 
-  const users=[
-      {name:"Amin",surname:"saki"},
-      {name:"Amin",surname:"amci"},
-      {name:"Amin",surname:"amco"},
-      
-  ]
-   for(i=0;i<users.length;i++){
-       console.log(users[i])
+// const b = a.map((el,i)=>{
+//    return el + i
+// })
+// console.log(b)
+
+
+// const numbers=[45,4,25,13,38,29]
+
+// const b= numbers.map((el)=>{
+//     return el**2
+// })
+// console.log(b)
+
+// function stringItUp(arr){
+//    const a=arr.map((el)=>{
+//         return el.toString()
+//    })
+//    return a
+// }
+
+// console.log(stringItUp([2,5,100]))
+
+// function stringItUp(arr){
+//        return arr.map((el)=>{
+//             return el.toString()
+//        })
+       
+//     }
+    
+//     console.log(stringItUp([2,5,100]))
+//=================================================================
+//slice je isekao ostatak posle prvog slova
+// function capitalizeNames(arr){
+//   return arr.map((el)=>{
+//     el=el.toLowerCase();
+//     el=el[0].toUpperCase()+ el.slice(1)
+//     return el
+//   })
+
+// }
+// console.log(capitalizeNames(["amin","saki","SALKAN","sasasasasas"]))
+
+
+
+// function namesOnly(arr){
+//       return arr.map((el)=>{
+//           return el.name
+//       })
+// }
+// console.log(namesOnly([
+//     {
+//       name:"Angelina Jolie",
+//       age:80
+//     },
+//     {
+//         name:"Eric Jones",
+//         age:2
+//       },
+//       {
+//         name:"Kayne West",
+//         age:100
+//       }
+// ]));
+
+// function namesOnly(arr){
+//       return arr.map((el)=>{
+//           if(el.age<18){
+//               return el.name + " is under age"
+//           }else{
+//               return el.name + " can go to "
+//           }
+//       })
+// }
+// console.log(namesOnly([
+//     {
+//       name:"Angelina Jolie",
+//       age:80
+//     },
+//     {
+//         name:"Eric Jones",
+//         age:2
+//       },
+//       {
+//         name:"Kayne West",
+//         age:100
+//       }
+// ]));
+
+
+// function namesOnly(arr){
+//       return arr.map((el)=>{
+//           return ["<h1>",el.name,"</h1>","<h2>",el.age,"</h2>"]
+//       })
+// }
+// console.log(namesOnly([
+//     {
+//       name:"Angelina Jolie",
+//       age:80
+//     },
+//     {
+//         name:"Eric Jones",
+//         age:2
+//       },
+//       {
+//         name:"Kayne West",
+//         age:100
+//       }
+// ]));
+
+function names(arr){
+   arr= arr.split("")
+   const newArr= arr.map((el)=>{
+        return el[0]
+   })
+   return newArr.join(".")
 }
-
+console.log(names(["Amin Salkovic Amin Salkovic"]))
