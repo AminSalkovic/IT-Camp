@@ -251,11 +251,41 @@
 //       }
 // ]));
 
-function names(arr){
-   arr= arr.split("")
-   const newArr= arr.map((el)=>{
-        return el[0]
-   })
-   return newArr.join(".")
+// function names(arr){
+//    arr= arr.split("")
+//    const newArr= arr.map((el)=>{
+//         return el[0]
+//    })
+//    return newArr.join(".")
+// }
+// console.log(names(["Amin Salkovic Amin Salkovic"]))
+
+
+// function numbers(num){
+//     return num.map((el)=>{
+//         if(el%2===0){
+//             return el*2
+//         }else{
+//             return el
+//         }
+//     })
+    
+    
+// }
+
+// let x=numbers([1,2,3,4,])
+// console.log(x)
+
+function numbers(num){
+   for(i=0;i<num.length;i++){
+       if(num[i]%2===0){
+           return num*2
+       }else{
+           return num
+       }
+   }
+   return num
 }
-console.log(names(["Amin Salkovic Amin Salkovic"]))
+
+let x=numbers([1,2,3,4])
+console.log(x)
