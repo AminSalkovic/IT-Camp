@@ -267,3 +267,10 @@
 // });
 //    console.log(arr)
 
+const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+const filtered=numbers.filter((el)=>{
+   
+    return el%2===0
+})
+console.log(filtered);

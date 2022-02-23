@@ -269,4 +269,105 @@
 //     return num
 // }
 // console.log(numbers([1,2,3,4,2,3]));
- 
+//===========================================
+//fliter
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// const filtered=numbers.filter((el)=>{
+//     return el > 18
+// })
+
+// console.log(filtered);
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// const filtered=numbers.filter((el)=>{
+   
+//     return el%2===0
+// })
+// console.log(filtered);
+
+// function fiveAnd(arr){
+//     const num=arr.filter((el)=>{
+//         return el>5 
+//     })
+//     return num
+// }
+// console.log(fiveAnd([3,6,8,2]));
+
+
+// function five(arr){
+//    return arr.filter((el)=>{
+//        return el.length<=5
+//    })
+// }
+
+// console.log(["by"],["cat"],["wolf"],["family"],["camping"]);
+
+// function people(arr){
+//    return arr.filter((el)=>{
+//        return el.member === true;
+//    })
+// }
+
+// console.log(people([
+//     {name:"amin",member:true},
+//     {name:"kany",member:false},
+//     {name:"eric",member:false},
+//     {name:"hari",member:true},
+//     {name:"msmdmsmsdm",member:true},
+// ]));
+//==================================================================
+
+// function ofAge(arr){
+//     return arr.filter((el)=> el.age>18)
+//   }
+//   console.log(ofAge([
+//       { name: "Angelina Jolie", age: 80 },
+//       { name: "Eric Jones", age: 2 },
+//       { name: "Paris Hilton", age: 5 },
+//       { name: "Kayne West", age: 16 },
+//       { name: "Bob Ziroll", age: 100 }
+//   ])); 
+
+// function five(arr){
+//    return arr.filter((el,i)=> !(i%2))
+
+// }
+// console.log(["by","cat","wolf","amily","camping"]);
+//====
+
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// const paran=numbers.every((el)=> el%2===0)
+
+// console.log(paran);
+//===================================================
+
+
+//====every
+// const peoples=[
+
+//     {name:"amin",member:true},
+//     {name:"kany",member:false},
+//     {name:"eric",member:false},
+//     {name:"hari",member:true},
+//     {name:"msmdmsmsdm",member:true},
+// ]
+
+// const  even=peoples.every((el)=> el.member===true)
+// console.log(even);
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+// const isany = numbers.some((el)=> el>18)
+
+// console.log(isany);
+//===========================
+const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+
+const isany = numbers.some((el)=> el%2===0)
+
+console.log(isany);
