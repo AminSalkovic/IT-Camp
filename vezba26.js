@@ -261,31 +261,12 @@
 // console.log(names(["Amin Salkovic Amin Salkovic"]))
 
 
+
 // function numbers(num){
-//     return num.map((el)=>{
-//         if(el%2===0){
-//             return el*2
-//         }else{
-//             return el
-//         }
-//     })
-    
-    
+//     for(i=1;i<num.length;i+=2){
+//         num[i]*=2
+//     }
+//     return num
 // }
-
-// let x=numbers([1,2,3,4,])
-// console.log(x)
-
-function numbers(num){
-   for(i=0;i<num.length;i++){
-       if(num[i]%2===0){
-           return num*2
-       }else{
-           return num
-       }
-   }
-   return num
-}
-
-let x=numbers([1,2,3,4])
-console.log(x)
+// console.log(numbers([1,2,3,4,2,3]));
+ 
