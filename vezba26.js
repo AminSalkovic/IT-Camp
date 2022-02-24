@@ -359,15 +359,22 @@
 
 // const  even=peoples.every((el)=> el.member===true)
 // console.log(even);
-
+//========================================================================SOME
 // const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
 
 // const isany = numbers.some((el)=> el>18)
 
 // console.log(isany);
 //===========================
-const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
 
-const isany = numbers.some((el)=> el%2===0)
+// const isany = numbers.some((el)=> el%2===0)
 
-console.log(isany);
+// console.log(isany);
+
+
+
+ function num(numbers){
+     return numbers.filter((el)=> el>18)
+ }
+ console.log(num([45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29]))
