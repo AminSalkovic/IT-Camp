@@ -374,7 +374,8 @@
 
 
 
- function num(numbers){
-     return numbers.filter((el)=> el>18)
- }
- console.log(num([45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29]))
+//  function num(numbers){
+//      return numbers.filter((el)=> el>18)
+//  }
+//  console.log(num([45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29]));
+
