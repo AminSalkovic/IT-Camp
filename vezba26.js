@@ -389,10 +389,21 @@
 // })
 // console.log(filtered);
 
-function toNumberArray(stringarray){
-    return stringarray.map((el)=>{
-         return parseInt(Math.abs(el))
-    })
- }
+// function toNumberArray(stringarray){
+//     return stringarray.map((el)=>{
+//          return parseInt((el))
+//     })
+//  }
 
- console.log((toNumberArray(["1.1", "2", "3"])));
+//  console.log((toNumberArray(["1.1", "2", "3"])));
+
+function sumMix(x){
+     sum=0
+   return x.map((el)=>{
+ 
+      return i[el]
+      
+   })
+
+ }
+console.log(sumMix([9, 3, '7', '3']));

@@ -267,10 +267,19 @@
 // });
 //    console.log(arr)
 
-const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
 
-const filtered=numbers.filter((el)=>{
+// const filtered=numbers.filter((el)=>{
    
-    return el%2===0
-})
-console.log(filtered);
+//     return el%2===0
+// })
+// console.log(filtered);
+
+//==============================
+function toNumberArray(stringarray){
+    return stringarray.map((el)=>{
+         return parseInt((el))
+    })
+ }
+
+ console.log((toNumberArray(["1.1", "2", "3"])));
