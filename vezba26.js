@@ -398,12 +398,11 @@
 //  console.log((toNumberArray(["1.1", "2", "3"])));
 
 function sumMix(x){
-     sum=0
-   return x.map((el)=>{
- 
-      return i[el]
-      
-   })
-
+    sum=0
+    for(i=0;i<x.length;i++){
+        
+        sum+=parseInt(x[i])
+    }
+    return sum
  }
 console.log(sumMix([9, 3, '7', '3']));
