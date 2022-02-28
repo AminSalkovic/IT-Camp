@@ -397,12 +397,31 @@
 
 //  console.log((toNumberArray(["1.1", "2", "3"])));
 
-function sumMix(x){
-    sum=0
-    for(i=0;i<x.length;i++){
+// function sumMix(x){
+//     sum=0
+//     for(i=0;i<x.length;i++){
         
-        sum+=parseInt(x[i])
+//         sum+=parseInt(x[i])
+//     }
+//     return sum
+//  }
+// console.log(sumMix([9, 3, '7', '3']));
+
+
+function consectuive(nums){
+   let counter=0;
+   let max=0
+   for(let i=0;i<nums.length;i++){
+       if(nums[i]=== 1){
+           counter+=1
+        }else if(nums[i]===0){
+           if(max<counter){
+               max=counter
+           }
+           counter=0
+        }
     }
-    return sum
- }
-console.log(sumMix([9, 3, '7', '3']));
+}
+console.log(max)
+
+console.log(consectuive([1,1,0,0,1,1,1,0,1,1]));
