@@ -276,10 +276,17 @@
 // console.log(filtered);
 
 //==============================
-function toNumberArray(stringarray){
-    return stringarray.map((el)=>{
-         return parseInt((el))
-    })
- }
+// function toNumberArray(stringarray){
+//     return stringarray.map((el)=>{
+//          return parseInt((el))
+//     })
+//  }
 
- console.log((toNumberArray(["1.1", "2", "3"])));
+//  console.log((toNumberArray(["1.1", "2", "3"])));
+
+function divisibleBy(numbers){
+     for(i=0;i<numbers.length;i+=2){
+       return numbers[i]
+     } 
+   }
+   console.log(divisibleBy([1,2,3,4,5,6,7]));

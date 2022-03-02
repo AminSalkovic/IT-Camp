@@ -408,20 +408,56 @@
 // console.log(sumMix([9, 3, '7', '3']));
 
 
-function consectuive(nums){
-   let counter=0;
-   let max=0
-   for(let i=0;i<nums.length;i++){
-       if(nums[i]=== 1){
-           counter+=1
-        }else if(nums[i]===0){
-           if(max<counter){
-               max=counter
-           }
-           counter=0
-        }
-    }
-}
-console.log(max)
+// function consectuive(nums){
+//    let counter=0;
+//    let max=0
+//    for(let i=0;i<nums.length;i++){
+//        if(nums[i]=== 1){
+//            counter+=1
+//         }else if(nums[i]===0){
+//            if(max<counter){
+//                max=counter
+//            }
+//            counter=0
+//         }
+//     }
+//     console.log(max)
+// }
 
-console.log(consectuive([1,1,0,0,1,1,1,0,1,1]));
+// console.log(consectuive([1,1,0,0,1,1,1,0,1,1]));
+
+// console.log(3===3?1:2)
+//=====================================================
+
+// function xo(str){
+//    xcount=0
+//    ocount=0
+//    for(let i=0;i<str.length;i++){
+//     if(str[i]==="x" || str[i]==="X"){
+//         xcount++
+//     }else if(str[i]==="o" || str[i]==="O"){
+//         ocount++
+//     } 
+// }
+// if(xcount==ocount){
+//     return true
+// }
+// }
+// console.log(xo("ooxx"));
+// function matrix(array) {
+//     for (var i = 0 ; i < array.length ; i++){
+//         if (array[i][i] < 0)
+//           array[i][i] = 0;
+//         else
+//           array[i][i] = 1;
+//       }
+//       return array;
+// }
+// console.log(matrix([
+//     [-1,  4, -5, -9,  3 ],
+//     [ 6, -4, -7,  4, -5 ],
+//     [ 3,  5,  0, -9, -1 ],
+//     [ 1,  5, -7, -8, -9 ],
+//     [-3,  2,  1, -5,  6 ]
+//   ]))
+
