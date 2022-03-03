@@ -461,3 +461,24 @@
 //     [-3,  2,  1, -5,  6 ]
 //   ]))
 
+
+
+function modifiedSum(a, n) {
+       const sum1=a.map((el)=>{
+       return el**n
+       })
+  let sum=0
+  for(i=0;i<sum1.length;i++){
+         sum=sum+sum1[i]
+       }
+       let sum3=0
+       for(i=0;i<a.length;i++){
+             sum3+=a[i]
+      }
+       return sum-sum3
+}
+console.log(modifiedSum([1, 2, 3],3));
+       
+
+
+
