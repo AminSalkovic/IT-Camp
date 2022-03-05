@@ -463,22 +463,45 @@
 
 
 
-function modifiedSum(a, n) {
-       const sum1=a.map((el)=>{
-       return el**n
-       })
-  let sum=0
-  for(i=0;i<sum1.length;i++){
-         sum=sum+sum1[i]
-       }
-       let sum3=0
-       for(i=0;i<a.length;i++){
-             sum3+=a[i]
-      }
-       return sum-sum3
-}
-console.log(modifiedSum([1, 2, 3],3));
+// function modifiedSum(a, n) {
+//        const sum1=a.map((el)=>{
+//        return el**n
+//        })
+//   let sum=0
+//   for(i=0;i<sum1.length;i++){
+//          sum=sum+sum1[i]
+//        }
+//        let sum3=0
+//        for(i=0;i<a.length;i++){
+//              sum3+=a[i]
+//       }
+//        return sum-sum3
+// }
+// console.log(modifiedSum([1, 2, 3],3));
        
+// function moveZeros(arr) {
+//    for(i=0;i<arr.length;i++){
+//       if(arr[i]===0){
+//              arr.splice(i,1)
+//              arr.push(0)
+//       }
+// }
+// return arr
+// }
+// console.log(moveZeros([false,1,0,1,2,0,1,0,3,"a",0]));
 
+function countDevelopers(list) {
+       for(let i=0;i<list.length;i++){
+       //   if(list[i][i].country ==="Europe"){
+       //       return
+       //   }
+       return list[i].age
+       }
 
-
+     }
+console.log(countDevelopers( [
+       { firstName: 'Noah', lastName: 'M.', country: 'Switzerland', continent: 'Europe', age: 19, language: 'JavaScript', },
+       { firstName: 'Maia', lastName: 'S.', country: 'Tahiti', continent: 'Oceania', age: 28, language: 'JavaScript' ,},
+       { firstName: 'Shufen', lastName: 'L.', country: 'Taiwan', continent: 'Asia', age: 35, language: 'HTML' ,},
+       { firstName: 'Sumayah', lastName: 'M.', country: 'Tajikistan', continent: 'Asia', age: 30, language: 'CSS', }
+     ]));
