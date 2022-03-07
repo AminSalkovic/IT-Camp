@@ -538,11 +538,17 @@
 // }
 // console.log(getAverage([1,2,3,4,5,]));
 
-function grow(x){
-  sum=1
-  for(i=0;i<x.length;i++){
-     sum*=x[i]
-   }
-   return sum
+// function grow(x){
+//   sum=1
+//   for(i=0;i<x.length;i++){
+//      sum*=x[i]
+//    }
+//    return sum
+// }
+// console.log(grow([1, 2, 3, 4]));
+
+console.log("code start-----");
+let user=0
+const myProm= new Promise ((resolve,reject)=>{
+  
 }
-console.log(grow([1, 2, 3, 4]));
