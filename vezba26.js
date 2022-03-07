@@ -490,18 +490,59 @@
 // }
 // console.log(moveZeros([false,1,0,1,2,0,1,0,3,"a",0]));
 
-function countDevelopers(list) {
-       for(let i=0;i<list.length;i++){
-       //   if(list[i][i].country ==="Europe"){
-       //       return
-       //   }
-       return list[i].age
-       }
+// function countDevelopers(list) {
+//        for(let i=0;i<list.length;i++){
+//        //   if(list[i][i].country ==="Europe"){
+//        //       return
+//        //   }
+//        return list[i].age
+//        }
 
-     }
-console.log(countDevelopers( [
-       { firstName: 'Noah', lastName: 'M.', country: 'Switzerland', continent: 'Europe', age: 19, language: 'JavaScript', },
-       { firstName: 'Maia', lastName: 'S.', country: 'Tahiti', continent: 'Oceania', age: 28, language: 'JavaScript' ,},
-       { firstName: 'Shufen', lastName: 'L.', country: 'Taiwan', continent: 'Asia', age: 35, language: 'HTML' ,},
-       { firstName: 'Sumayah', lastName: 'M.', country: 'Tajikistan', continent: 'Asia', age: 30, language: 'CSS', }
-     ]));
+//      }
+// console.log(countDevelopers( [
+//        { firstName: 'Noah', lastName: 'M.', country: 'Switzerland', continent: 'Europe', age: 19, language: 'JavaScript', },
+//        { firstName: 'Maia', lastName: 'S.', country: 'Tahiti', continent: 'Oceania', age: 28, language: 'JavaScript' ,},
+//        { firstName: 'Shufen', lastName: 'L.', country: 'Taiwan', continent: 'Asia', age: 35, language: 'HTML' ,},
+//        { firstName: 'Sumayah', lastName: 'M.', country: 'Tajikistan', continent: 'Asia', age: 30, language: 'CSS', }
+//      ]));
+
+//      a=num.math
+
+//==========================================================================
+// function greet(name){
+//   return `Hello, ${name} how are you doing today?`
+// }
+// console.log(greet("amin"));
+//=====================================codewars
+
+// function arrayPlusArray(arr1, arr2) {
+//   let sum1=0;
+//   for(i=0;i<arr1.length;i++){
+//     sum1+=arr1[i]
+//   }
+//   let sum2=0;
+//   for(i=0;i<arr2.length;i++){
+//     sum2+=arr2[i]
+//   }
+//   return sum1+sum2
+// }
+
+// console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
+
+// function getAverage(marks){
+//   let sum=0
+//     for(i=0;i<marks.length;i++){
+//          sum+=marks[i]
+//     }
+//     return Math.floor(sum/marks.length)
+// }
+// console.log(getAverage([1,2,3,4,5,]));
+
+function grow(x){
+  sum=1
+  for(i=0;i<x.length;i++){
+     sum*=x[i]
+   }
+   return sum
+}
+console.log(grow([1, 2, 3, 4]));

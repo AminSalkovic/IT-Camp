@@ -839,8 +839,8 @@
 
 // console.log(nesto("amin"))
 
-function numbers(a,b){
- return a*b
+function greet(name){
+  return name
 }
-let x=numbers(1,2)
-console.log(x)
+console.log(greet("amin"));
+//"Hello, <name> how are you doing today?"
