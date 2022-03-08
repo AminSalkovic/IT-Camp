@@ -26,11 +26,25 @@
 // }
 // console.log(getAverage([1,2,3,4,5,]));
 //=====================================================mnozenje elemenata
-function grow(x){
-    sum=1
-    for(i=0;i<x.length;i++){
-       sum*=x[i]
-     }
-     return sum
-  }
-  console.log(grow([1, 2, 3, 4]));
+// function grow(x){
+//     sum=1
+//     for(i=0;i<x.length;i++){
+//        sum*=x[i]
+//      }
+//      return sum
+//   }
+//   console.log(grow([1, 2, 3, 4]));
+
+
+for(i=0;i<15;i++){
+   console.log(i);
+}
+
+// function getAverage(marks){
+//   let sum=0
+//     for(i=0;i<marks.length;i++){
+//          sum+=marks[i]
+//     }
+//     return Math.floor(sum/marks.length)
+// }
+// console.log(getAverage([1,2,3,4,5,]));

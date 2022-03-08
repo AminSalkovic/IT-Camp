@@ -527,6 +527,7 @@
 //   return sum1+sum2
 // }
 
+
 // console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
 
 // function getAverage(marks){
@@ -547,8 +548,42 @@
 // }
 // console.log(grow([1, 2, 3, 4]));
 
-console.log("code start-----");
-let user=0
-const myProm= new Promise ((resolve,reject)=>{
-  
-}
+// console.log("code start-----");
+// let user=0
+// const myProm= new Promise((resolve,reject)=>{
+// setTimeout(()=>{
+//   user=5
+//   resolve("uspsesno")
+//    })
+// })
+
+
+// myProm
+
+// .then(()=>{
+// console.log(user)
+// }).catch(()=>{
+
+// });
+
+
+// const myProm=new Promise((resolve,reject)=>{
+//   setTimeout(()=>{
+//     resolve(5)
+//   },2000);
+// })
+// let user=0
+
+// async function getData(){
+// try{ 
+//   const users=await myProm;
+     
+//     users.map((el)=>{
+//     console.log
+//     })
+//     console.log(users)
+//    }catch(err){}
+// }
+// getData();
+
+
