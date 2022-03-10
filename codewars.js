@@ -35,11 +35,6 @@
 //   }
 //   console.log(grow([1, 2, 3, 4]));
 
-
-for(i=0;i<15;i++){
-   console.log(i);
-}
-
 // function getAverage(marks){
 //   let sum=0
 //     for(i=0;i<marks.length;i++){
@@ -48,3 +43,8 @@ for(i=0;i<15;i++){
 //     return Math.floor(sum/marks.length)
 // }
 // console.log(getAverage([1,2,3,4,5,]));
+
+function vaporcode(string) {
+   return string.toUpperCase().split(" ").join("").split("").join("  ");
+}
+console.log(vaporcode("Lets go to the movies"));

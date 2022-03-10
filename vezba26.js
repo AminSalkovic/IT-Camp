@@ -594,3 +594,8 @@
 //     return Math.floor(sum/marks.length)
 // }
 // console.log(getAverage([1,2,3,4,5,]));
+
+function vaporcode(string) {
+    return string.toUpperCase().split(" ").join("").split("").join("  ");
+}
+console.log(vaporcode("Lets go to the movies"));
