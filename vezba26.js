@@ -586,16 +586,36 @@
 // }
 // getData();
 
-// function getAverage(marks){
-//   let sum=0
-//     for(i=0;i<marks.length;i++){
-//          sum+=marks[i]
-//     }
-//     return Math.floor(sum/marks.length)
+// function vaporcode(string) {
+//     return string.toUpperCase().split(" ").join("").split("").join("  ");
 // }
-// console.log(getAverage([1,2,3,4,5,]));
+// console.log(vaporcode("Lets go to the movies"));
 
-function vaporcode(string) {
-    return string.toUpperCase().split(" ").join("").split("").join("  ");
-}
-console.log(vaporcode("Lets go to the movies"));
+
+
+// async function getData(){
+//    const response= await fetch("https://catfact.nina/facts")
+//     const responsejson= await response.json()
+//    console.log(responsejson)
+// }
+
+// console.log(getData());
+
+
+// async function getData(){
+//     const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//     const response2=await response.json()
+//     const some=response2.map((el)=>el.name)
+//      console.log(some);
+// }
+// console.log(getData())
+
+fetch("https://jsonplaceholder.typicode.com/users").
+then((response)=>{
+    return response.json()
+}).then((response)=>{
+    const some=response.map((el)=>el.name);
+    console.log(some);
+}).catch((err)=>{
+    console.log(err)
+})
