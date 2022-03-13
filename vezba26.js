@@ -602,13 +602,13 @@
 // console.log(getData());
 
 
-// async function getData(){
-//     const response=await fetch("https://jsonplaceholder.typicode.com/users")
-//     const response2=await response.json()
-//     const some=response2.map((el)=>el.name)
-//      console.log(some);
-// }
-// console.log(getData())
+async function getData(){
+    const response=await fetch("https://jsonplaceholder.typicode.com/users")
+    const response2=await response.json()
+    const some=response2.map((el)=>el.name)
+     console.log(some);
+}
+console.log(getData())
 
 fetch("https://jsonplaceholder.typicode.com/users").
 then((response)=>{
