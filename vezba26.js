@@ -602,20 +602,80 @@
 // console.log(getData());
 
 
-async function getData(){
-    const response=await fetch("https://jsonplaceholder.typicode.com/users")
-    const response2=await response.json()
-    const some=response2.map((el)=>el.name)
-     console.log(some);
-}
-console.log(getData())
+// async function getData(){
+//     const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//     const response2=await response.json()
+//     const some=response2.map((el)=>el.name)
+//      console.log(some);
+// }
+// console.log(getData())
 
-fetch("https://jsonplaceholder.typicode.com/users").
-then((response)=>{
-    return response.json()
-}).then((response)=>{
-    const some=response.map((el)=>el.name);
-    console.log(some);
-}).catch((err)=>{
-    console.log(err)
-})
+// fetch("https://jsonplaceholder.typicode.com/users").
+// then((response)=>{
+//     return response.json()
+// }).then((response)=>{
+//     const some=response.map((el)=>el.name);
+//     console.log(some);
+// }).catch((err)=>{
+//     console.log(err)
+// })
+
+
+
+// async function getsome(){
+//  const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//  const response2=await response.json()
+//  const a=response2.map((el)=>el.name)
+//  console.log(a)
+// }
+// console.log(getsome());
+
+
+// fetch("https://jsonplaceholder.typicode.com/users").
+// then((response)=>{
+//     return response.json()
+// }).then((response)=>{
+//     const a=response.map((el)=>el.name)
+//     console.log(a);
+// }).catch((el)=>{
+//     console.log(err);
+// });
+//===========================================================================================;;;;;
+// const el= document.getElementsByClassName("main");
+// const el=document.getElementById("heading")
+// const el=document.getElementsByTagName("h1")
+// const el=document.querySelector("div")
+// const el=document.querySelector(".main")
+
+
+// const el=document.querySelector("h1")
+// el.style.backgroundColor="red"
+// el.innerText="amin"
+
+
+// const el=document.getElementById("heading")
+// el.innerText="amin"
+// el.style.backgroundColor="blue"
+// el.style.fontSize="40px"
+
+// const el2=document.getElementById("heading2")
+// el2.style.color= "red"
+// el2.style.fontSize="40px"
+
+// const el3=document.getElementById("heading3")
+// el3.style.color= "orange"
+// el3.style.fontSize="60px"
+
+
+// const main=document.getElementById("main")
+
+async function getData(){
+  const response=await fetch("https://catfact.ninja/facts")
+  const response2=await response.json()
+  const a=response2.map((el)=>el.data)
+ console.log(a)
+
+}
+console.log(getData());
+
+
