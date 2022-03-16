@@ -1,4 +1,4 @@
-button{
+/* button{
     width: 250px;
     height: 50px;
     border: 2px solid black;
@@ -21,5 +21,11 @@ button::after{
 }
 button:hover::after{
     width: 100%;
+
+} */
+
+.mojaklasa{
+ background-color: aqua;
+ border: 2px solid black;
 
 }

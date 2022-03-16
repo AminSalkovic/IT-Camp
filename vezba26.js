@@ -669,13 +669,42 @@
 
 // const main=document.getElementById("main")
 
-async function getData(){
-  const response=await fetch("https://catfact.ninja/facts")
-  const response2=await response.json()
-  const a=response2.map((el)=>el.data)
- console.log(a)
 
+// }
+// console.log(getData());
+
+
+// const main = document.getElementById("main");
+// async function getData(){
+//     const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//     const response2=await response.json()
+//     response2.forEach((user)=>{
+//     var element=document.createElement("h1")
+//     element.innerText=user.name
+//     main.appendChild(element)
+// })
+
+// }
+// console.log(getData())
+//dodavanje klase
+// const main=document.getElementById("main")
+// main.classList.add("novaklasa")
+// main.classList.remove("novaklasa")
+
+//novi cas...
+
+function klik(){
+     const main=document.getElementById("but")
+     main.style.backgroundColor="red"
+     if(main.style.backgroundColor==="red"){
+         main.style.backgroundColor="blue"
+    }else{
+        main.style.backgroundColor="red"
+    }
 }
-console.log(getData());
-
-
+function klik2(){
+    const main=document.getElementById("but2") 
+    const klasa="mojaklasa"
+    main.classList.toggle(klasa)
+   
+}
