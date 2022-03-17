@@ -708,3 +708,15 @@ function klik2(){
     main.classList.toggle(klasa)
    
 }
+
+async function klik3(){
+    const main=document.getElementById("but3")
+     const response=await fetch("https://jsonplaceholder.typicode.com/users")
+    const response2=await response.json()
+    response2.forEach((user)=>{
+    var element=document.createElement("h1")
+    element.innerText=user.name
+    main.appendChild(element)
+    })
+   
+}
