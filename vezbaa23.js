@@ -33,30 +33,35 @@
 //   console.log("some");
 // }
 
-forma=document.getElementById("form")
-email=document.getElementById("email")
-namea=document.getElementById("name")
-username=document.getElementById("username")
-password=document.getElementById("password")
-const reqbody={}
+// forma = document.getElementById("form");
+// email = document.getElementById("email");
+// namea = document.getElementById("name");
+// password = document.getElementById("password");
+// username = document.getElementById("username");
 
-forma.addEventListener("submit",(e)=>{
-  e.preventDefault();
-  reqbody.email=email.value
-  reqbody.namea=namea.value
-  reqbody.username=username.value
-  reqbody.password=password.value
-  fetch("http://serene-fortres-45917.herokuapp.com/v1/aturj/signup",{
-    method:"POST",
-    body:JSON.stringify(reqbody),
-})
-.then((res)=>{
-  return res.json()
-})
-.then((response)=>{
-  console.log(response);
-})
+// const reqBody = {};
 
-})
+// forma.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   reqBody.email = email.value;
+//   reqBody.name = namea.value;
+//   reqBody.password = password.value;
+//   reqBody.username = username.value;
+
+//   fetch("http://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
+//     method: "POST",
+//     body: JSON.stringify(reqBody),
+//   })
+//     .then((res) => {
+//       return res.json();
+//     })
+//     .then((response) => {
+//       console.log(response);
+//     });
+// });
+
+
+
+
 
 
