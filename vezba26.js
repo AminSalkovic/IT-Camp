@@ -693,30 +693,40 @@
 
 //novi cas...
 
-function klik(){
-     const main=document.getElementById("but")
-     main.style.backgroundColor="red"
-     if(main.style.backgroundColor==="red"){
-         main.style.backgroundColor="blue"
-    }else{
-        main.style.backgroundColor="red"
-    }
-}
-function klik2(){
-    const main=document.getElementById("but2") 
-    const klasa="mojaklasa"
-    main.classList.toggle(klasa)
+// function klik(){
+//      const main=document.getElementById("but")
+//      main.style.backgroundColor="red"
+//      if(main.style.backgroundColor==="red"){
+//          main.style.backgroundColor="blue"
+//     }else{
+//         main.style.backgroundColor="red"
+//     }
+// }
+// function klik2(){
+//     const main=document.getElementById("but2") 
+//     const klasa="mojaklasa"
+//     main.classList.toggle(klasa)
    
-}
+// }
 
-async function klik3(){
-    const main=document.getElementById("but3")
-     const response=await fetch("https://jsonplaceholder.typicode.com/users")
-    const response2=await response.json()
-    response2.forEach((user)=>{
-    var element=document.createElement("h1")
-    element.innerText=user.name
-    main.appendChild(element)
-    })
+// async function klik3(){
+//     const main=document.getElementById("but3")
+//      const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//     const response2=await response.json()
+//     response2.forEach((user)=>{
+//     var element=document.createElement("h1")
+//     element.innerText=user.name
+//     main.appendChild(element)
+//     })
    
-}
+// }
+// function klik3(){
+//     const main=document.getElementById("but2") 
+//     const klasa="mojaklasa"
+//     main.classList.toggle(klasa)
+   
+// }
+
+
+
+
