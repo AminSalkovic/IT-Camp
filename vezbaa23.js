@@ -60,29 +60,59 @@
 //     });
 // });
 
-async function myclick(){
-    const main=document.getElementById("dugme")
-     const response=await fetch("https://jsonplaceholder.typicode.com/users")
-    const response2=await response.json()
-    response2.forEach((user)=>{
-    var element=document.createElement("h1")
-    element.style.fontSize="30px"
-    element.innerText=user.name
-    main.appendChild(element)
-    })
-  }
+// async function myclick(){
+//     const main=document.getElementById("dugme")
+//      const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//     const response2=await response.json()
+//     response2.forEach((user)=>{
+//     var element=document.createElement("h1")
+//     element.style.fontSize="30px"
+//     element.innerText=user.name
+//     main.appendChild(element)
+//     })
+//   }
 
-  async function getsome(){
-      const but2=document.getElementById("dugme2")
- const response=await fetch("https://jsonplaceholder.typicode.com/users")
- const response2=await response.json()
- const a=response2.map((el)=>{
-    element=document.createElement("h2")
-    element.innerText=el.name
-    but2.appendChild(element)
- })
+//   async function getsome(){
+//       const but2=document.getElementById("dugme2")
+//  const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//  const response2=await response.json()
+//  const a=response2.map((el)=>{
+//     element=document.createElement("h2")
+//     element.innerText=el.name
+//     but2.appendChild(element)
+//  })
  
+// }
+
+// async function myfunction(){
+//     const main=document.getElementById("but3")
+//      const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//     const response2=await response.json()
+//     response2.forEach((user)=>{
+//     var element=document.createElement("h1")
+//     element.innerText=user.name
+//     main.appendChild(element)
+//     })
+
+// }
+
+// async function myfunction(){
+//   const but3=document.getElementById("but3")
+//   but3.style.backgroundColor="red"
+//   const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+//    const filter=numbers.filter((el)=>{
+//      return el%2===0
+//    })
+//    console.log(filter);
+// }
+
+
+
+function  nesto(name){
+   a= name.split('')
+   b=a.shift().toUpperCase()
+   return b+ a.join('')
+
 }
 
-
-
+console.log(nesto("amin"))
