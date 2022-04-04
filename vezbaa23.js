@@ -108,11 +108,49 @@
 
 
 
-function  nesto(name){
-   a= name.split('')
-   b=a.shift().toUpperCase()
-   return b+ a.join('')
+// function  nesto(name){
+//    a= name.split('')
+//    b=a.shift().toUpperCase()
+//    return b+ a.join('')
 
+// }
+
+// console.log(nesto("amin"))
+
+// numbers=[1,2,3,45,6,66,74,34,23,5,7,9]
+// numbers2=[2,3,65,7,88,43,5646,453,23,43]
+
+// ar=[]
+
+// for(i=0;i<numbers.length;i++){
+//    for(j=0;j<numbers2.length;j++){
+//       if(numbers[i]===numbers2[j]){
+//          ar.push(numbers[i])
+//       }
+//    }
+// }
+// console.log("ovi brojevu su isti",ar.join(' '));
+
+// async function users(){
+//    const dugme=document.getElementById('dugme')
+//    const response=await fetch("https://jsonplaceholder.typicode.com/users")
+//    const response2=await response.json()
+//     response2.forEach((el) => {
+//         element=document.createElement("h1")
+//         element.innerText=el.name
+//         dugme.appendChild(element)
+//     });
+// }
+
+// 
+function imena(){
+    names=["amin","saki","salkan"]
+    for(i=0;i<names.length;i++){
+        if(names[i]==="amin"){
+            names.unshift()
+            }
+        }
+        console.log(names)
 }
 
-console.log(nesto("amin"))
+imena()
