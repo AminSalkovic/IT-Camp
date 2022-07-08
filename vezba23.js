@@ -666,3 +666,11 @@
 //   }
 
 
+function numbers(num){
+    for(i=1;i<num.length;i+=2){
+        num[i]*=2
+    }
+    return num
+}
+console.log(numbers([1,2,3,4,2,3]));
+//===========================================

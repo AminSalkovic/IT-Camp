@@ -143,14 +143,60 @@
 // }
 
 // 
-function imena(){
-    names=["amin","saki","salkan"]
-    for(i=0;i<names.length;i++){
-        if(names[i]==="amin"){
-            names.unshift()
-            }
-        }
-        console.log(names)
-}
 
-imena()
+
+
+
+// const numbers=[45,4,25,13,38,29]
+// const b= numbers.map((el)=>{
+//     return el**2
+// })
+// console.log(b)
+
+
+//  function num(numbers){
+//      return numbers.filter((el)=> el>18)
+//  }
+//  console.log(num([45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29]));
+
+
+
+// function number(num){
+// const a=num.map((el)=>{
+//     return el**2
+// })
+// return a
+
+// }
+
+// let x=number([1,2,3,4])
+// console.log(x);
+
+// function average(){
+//     let sum=0
+//     const num=[[1,2,3,4,5],[1,3]]
+//     for(i=0;i<num[0].length;i++){
+//         sum+=num[0][i]
+//     }
+//     let sum2=0
+//     for(i=0;i<num[1].length;i++){
+//         sum2+=num[1][i]
+//     }
+//     return Math.floor((sum+sum2)/num.length)
+  
+  
+// }
+
+
+// function moveZeros(arr) {
+//    for(i=0;i<arr.length;i++){
+//       if(arr[i]===0){
+//              arr.splice(i,1)
+//              arr.unshift(0)
+//       }
+// }
+// return arr
+// }
+// console.log(moveZeros([false,1,0,1,2,0,1,0,3,"a",0]));
+
+console.log("hello");

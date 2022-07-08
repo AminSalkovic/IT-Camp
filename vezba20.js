@@ -189,25 +189,23 @@
 //       break;
 
 // }
-a=parseInt(prompt("unesi broj od 0-100"));
+// a=parseInt(prompt("unesi broj od 0-100"));
 
-   switch(true){
-     case (a>0 && a<30):
-     console.log("low");
-     break;
-     case (a>30 && a<70):
-     console.log("medium");
-     break;
-     case (a>70 && a<=100):
-       console.log("high");
-       break;
-      default:
-        console.log("pogresan unos")
-}
-
-
+//    switch(true){
+//      case (a>0 && a<30):
+//      console.log("low");
+//      break;
+//      case (a>30 && a<70):
+//      console.log("medium");
+//      break;
+//      case (a>70 && a<=100):
+//        console.log("high");
+//        break;
+//       default:
+//         console.log("pogresan unos")
+// }
 
 
 
 
-
+ReactDOM.render(<h1>hello</h1> ,document.getElementById('mydiv'))
