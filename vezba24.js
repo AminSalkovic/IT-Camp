@@ -839,8 +839,48 @@
 
 // console.log(nesto("amin"))
 
-function greet(name){
-  return name
-}
-console.log(greet("amin"));
+// function greet(name){
+//   return name
+// }
+// console.log(greet("amin"));
 //"Hello, <name> how are you doing today?"
+
+
+
+// a=[3,6,23,9,44,14,83,22,5,1];
+// sum=0;
+// for(i=0;i<a.length;i++){
+//     sum=sum+a[i]
+// }
+// console.log(sum)
+
+
+function  user (users) {
+   ar=[]
+
+     users.forEach(element => {
+        if(element.age<32){
+            ar.push(element.name)
+        }
+     });
+
+    return ar
+
+}
+
+console.log(user(
+    [
+                {
+                   name:"amin",surname:"salkovic",age:18,
+                },
+                {
+                    name:"saki",surname:"saki",age:20,
+                 },
+                 {
+                    name:"saki",surname:"salkan",age:18,
+                 },
+                 {
+                    name:"nesto",surname:"nista",age:32,
+                 },
+            ]
+));
