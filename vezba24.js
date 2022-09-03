@@ -855,6 +855,36 @@
 // console.log(sum)
 
 
+// function  user (users) {
+//    ar=[]
+
+//      users.forEach(element => {
+//         if(element.age<32){
+//             ar.push(element.name)
+//         }
+//      });
+
+//     return ar
+
+// }
+
+// console.log(user(
+//     [
+//                 {
+//                    name:"amin",surname:"salkovic",age:18,
+//                 },
+//                 {
+//                     name:"saki",surname:"saki",age:20,
+//                  },
+//                  {
+//                     name:"saki",surname:"salkan",age:18,
+//                  },
+//                  {
+//                     name:"nesto",surname:"nista",age:32,
+//                  },
+//             ]
+// ));
+
 function  user (users) {
    ar=[]
 
@@ -862,10 +892,10 @@ function  user (users) {
         if(element.age<32){
             ar.push(element.name)
         }
+     
      });
-
-    return ar
-
+    const names = ar.reverse().join(' ').toUpperCase()
+    return names.concat('nesto')
 }
 
 console.log(user(
@@ -884,3 +914,4 @@ console.log(user(
                  },
             ]
 ));
+
